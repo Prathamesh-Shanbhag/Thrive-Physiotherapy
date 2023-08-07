@@ -6,46 +6,51 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Thrive Physiotherapy</title>
   <!-- fontawesome icons  -->
-  <link rel="stylesheet" href="fontawesome-free-6.4.0-web\css\all.min.css" />
+  <link rel="stylesheet" href="fontawesome-free-6.4.0-web/css/all.min.css" />
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@700&display=swap" rel="stylesheet">
   <link href="https://api.fontshare.com/v2/css?f[]=general-sans@500&display=swap" rel="stylesheet">
+  <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+  <link rel="manifest" href="/site.webmanifest">
   <!-- styles -->
   <link rel="stylesheet" href="./css/styles.css" />
   <!-- favicon  -->
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  <link rel="shortcut icon" href="./favicon/light/favicon.ico" type="image/x-icon" />
 </head>
 
 <body>
   <!-- <<<<<<header>>>>>> -->
-          <div class="hero">
+  <div class="hero">
 
-            <nav class="navbar">
-    <header id="home">
-      <!-- <<<<<<navbar>>>>>> -->
-      <!-- <img src="./images/main.png" alt=""> -->
+    <nav class="navbar">
+      <header id="home">
+        <!-- <<<<<<navbar>>>>>> -->
+        <!-- <img src="./images/main.png" alt=""> -->
 
-      <div class="nav-center">
-        <!-- nav header  -->
-        <div class="nav-header">
+        <div class="nav-center">
+          <!-- nav header  -->
+          <div class="nav-header">
 
-          <img src="./images/Logo.png" alt="Thrive_Logo" class="nav-logo">
-          <button type="button" class="nav-toggle" id="nav-toggle" aria-label="nav-toggler"><i class="fas fa-bars"></i>
-          </button>
-        </div>
-        <!-- end of navbar header  -->
-        <!-- navbar links  -->
+            <img src="./images/Logo.png" alt="Thrive_Logo" class="nav-logo">
+            <button type="button" class="nav-toggle" id="nav-toggle" aria-label="nav-toggler"><i
+                class="fas fa-bars"></i>
+            </button>
+          </div>
+          <!-- end of navbar header  -->
+          <!-- navbar links  -->
 
-        <div class="nav-links" id="nav-links">
-          <a href="#home" class="nav-link scroll-link">Home</a>
-          <a href="#services" class="nav-link scroll-link">Our Services</a>
-          <a href="#about" class="nav-link scroll-link">Our Team</a>
-          <a href="#contactus" class="nav-link scroll-link">Contact Us</a>
-          <!-- <a href="#gallery" class="nav-link scroll-link">Gallery</a> -->
+          <div class="nav-links" id="nav-links">
+            <a href="#home" class="nav-link scroll-link">Home</a>
+            <a href="#services" class="nav-link scroll-link">Our Services</a>
+            <a href="#about" class="nav-link scroll-link">Our Team</a>
+            <a href="#contactus" class="nav-link scroll-link">Contact Us</a>
+            <!-- <a href="#gallery" class="nav-link scroll-link">Gallery</a> -->
 
-        </div>
-        <!-- end of nav bar links  -->
-        <!-- nav social  -->
-        <!-- <div class="nav-icons">
+          </div>
+          <!-- end of nav bar links  -->
+          <!-- nav social  -->
+          <!-- <div class="nav-icons">
           <a href="https://www.facebook.com" target="_blank">
             <i class="fab fa-facebook nav-icon"></i>
           </a>
@@ -61,38 +66,43 @@
           </a>
         </div> -->
 
-      </div>
+        </div>
 
     </nav>
     <!-- <<<<<<hero component>>>>>> -->
-      <!-- <video id="videoBG" poster="./images/poster.png" autoplay muted loop>
+    <!-- <video id="videoBG" poster="./images/poster.png" autoplay muted loop>
           <source src="./images/footage1.mp4" type="video/mp4">
           </video> -->
-      <div class="hero-banner">
-        
-        <img class="hero-img" src="./images/flowers.png" alt="">
-        <div class="hero-wrapper">
-       
+    <div class="hero-banner">
 
-          
-  
-            <!-- <h1 class="hero-title"></h1> -->
-            <p class="hero-text">
-              Welcome to thrive, where we are on a mission to create a space where you feel supported, empowered, and inspired to thrive.
-            </p>
-            
-            <a href="#contactus" class="btn-primary scroll-link">MAKE AN APPOINTMENT</a>
-          </div>
+      <img class="hero-img" src="./images/flowers.png" alt="">
+      <div class="hero-wrapper">
+
+
+
+
+        <!-- <h1 class="hero-title"></h1> -->
+        <p class="hero-text">
+          Welcome to thrive, where we are on a mission to create a space where you feel supported, empowered, and
+          inspired to thrive.
+        </p>
+        <!-- HTML !-->
+        <button class="button-19 scroll-link" role="button"><a class="button_text" href="#contactus">MAKE AN
+            APPOINTMENT</a></button>
       </div>
     </div>
+  </div>
 
   </header>
+  <button onclick="topFunction()" id="myBtn" title="Go to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
   <!-- <<<<<<end of header>>>>>> -->
 
   <!-- services section  -->
 
 
-<!-- Assessment & Diagnosis
+  <!-- Assessment & Diagnosis
   Injury Rehab
   Exercise Prescription
 
@@ -123,12 +133,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-file-medical"></i>
+          <i><img src="./images/icons/check-list.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
           <h4 class="service-title">Assessment & Diagnosis</h4>
           <p class="service-text">
-          Our thorough assessment process enables us to accurately diagnose your condition and design personalized treatment plans for effective outcomes.
+            Our thorough assessment process enables us to accurately diagnose your condition and design personalized
+            treatment plans for effective outcomes.
           </p>
         </div>
       </article>
@@ -136,12 +147,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-dumbbell"></i>
+          <i><img src="./images/icons/weights.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
           <h4 class="service-title">Exercise Prescription</h4>
           <p class="service-text">
-            Whether you seek strength-building routines, flexibility enhancement, or cardiovascular conditioning, our exercise prescriptions are tailored to your unique goals.
+            Whether you seek strength-building routines, flexibility enhancement, or cardiovascular conditioning, our
+            exercise prescriptions are tailored to your unique goals.
           </p>
         </div>
       </article>
@@ -149,12 +161,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-         <i class="fa-solid fa-user-injured"></i>
+          <i><img src="./images/icons/injury.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
-          <h4 class="service-title">Injury Rehab</h4>
+          <h4 class="service-title">Injury <br>Rehabilitation</h4>
           <p class="service-text">
-          Recover from injuries and surgeries with the guidance of our expert therapists, who will work with you to regain mobility and functionality.
+            Recover from injuries and surgeries with the guidance of our expert therapists, who will work with you to
+            regain mobility and functionality.
           </p>
         </div>
       </article>
@@ -162,12 +175,16 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-ear-listen"></i>
+          <i><img src="./images/icons/hips.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
-          <h4 class="service-title">Vestibular Care</h4>
+          <h4 class="service-title">Pelvis Care </h4>
+          <!-- (/Vestibular Care/) -->
+          <!-- Find relief from dizziness, balance issues, and other vestibular disorders through our specialized care and treatment strategies. -->
           <p class="service-text">
-           Find relief from dizziness, balance issues, and other vestibular disorders through our specialized care and treatment strategies.
+            Our experienced team offers specialized care for pelvic-related issues, including pain, dysfunction, and
+            postpartum recovery. With personalized treatment plans, we aim to restore your pelvic health and improve
+            your overall quality of life
           </p>
         </div>
       </article>
@@ -175,12 +192,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-person-pregnant fa-lg"></i>
+          <i><img src="./images/icons/pregnancy.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
-          <h4 class="service-title">Pregnancy Rehab</h4>
+          <h4 class="service-title">Pregnancy <br> Rehabilitation</h4>
           <p class="service-text">
-           We offer tailored rehabilitation programs to support and enhance your well-being during pregnancy and postpartum, ensuring a smooth journey to motherhood.
+            We offer tailored rehabilitation programs to support and enhance your well-being during pregnancy and
+            postpartum, ensuring a smooth journey to motherhood.
           </p>
         </div>
       </article>
@@ -188,12 +206,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-circle-exclamation"></i>
+          <i><img src="./images/icons/muscle-pain.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
-          <h4 class="service-title">Pain Management</h4>
+          <h4 class="service-title">Pain <br> Management</h4>
           <p class="service-text">
-            Our holistic approach to pain management focuses on alleviating discomfort, improving function, and enhancing your overall quality of life.
+            Our holistic approach to pain management focuses on alleviating discomfort, improving function, and
+            enhancing your overall quality of life.
           </p>
         </div>
       </article>
@@ -201,12 +220,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-         <i class="fa-solid fa-person-rays"></i>
+          <i><img src="./images/icons/posture.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
           <h4 class="service-title">Posture & Ergonomics</h4>
           <p class="service-text">
-           Address posture-related issues and ergonomics concerns to prevent musculoskeletal problems and optimize your daily performance.
+            Address posture-related issues and ergonomics concerns to prevent musculoskeletal problems and optimize your
+            daily performance.
           </p>
         </div>
       </article>
@@ -214,12 +234,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-person-chalkboard"></i>
+          <i><img src="./images/icons/education.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
           <h4 class="service-title">Education & Prevention</h4>
           <p class="service-text">
-          Empowering you with knowledge and preventive strategies to take charge of your health and reduce the risk of future injuries or complications.
+            Empowering you with knowledge and preventive strategies to take charge of your health and reduce the risk of
+            future injuries or complications.
           </p>
         </div>
       </article>
@@ -227,12 +248,13 @@ Education & Prevention -->
       <!-- single service  -->
       <article class="service">
         <span class="service-icon">
-          <i class="fa-solid fa-scale-unbalanced-flip"></i>
+          <i><img src="./images/icons/balance.png" style="width: 40px; height: 40px" alt=""></i>
         </span>
         <div class="service-info">
-          <h4 class="service-title">Balance Training</h4>
+          <h4 class="service-title">Balance <br> Training</h4>
           <p class="service-text">
-        Enhance your stability and coordination with our specialized balance training programs, designed to reduce the risk of falls and improve your overall physical confidence.
+            Enhance your stability and coordination with our specialized balance training programs, designed to reduce
+            the risk of falls and improve your overall physical confidence.
           </p>
         </div>
       </article>
@@ -241,15 +263,261 @@ Education & Prevention -->
   </section>
   <!--end of  services section  -->
 
+  <!-- OUR Team Section -->
+  <section class="section services" id="about">
+    <div class="responsive-container-block outer-container">
+      <div class="responsive-container-block inner-container">
+        <p class="text-blk section-head-text">
+          Our Team
+        </p>
+        <p class="text-blk section-subhead-text">
+          Caring Experts Dedicated to Your Wellness
+        </p>
+        <div class="responsive-container-block">
+          <div class="swiper team-swiper">
+            <div class="swiper-wrapper">
+              <div class="swiper-slide">
+                <div class="card">
+                  <div class="img-wrapper">
+                    <img src="./images/manali.jpg">
+                  </div>
+                  <div class="card-content">
+                    <p class="text-blk name">
+                      Manali Shanbhag
+                    </p>
+                    <p class="text-blk position">
+                      Founder
+                    </p>
+                    <p class="text-blk testimonial">
+                      Best Physiotherapist in Canada!
+                    </p>
+                  </div>
+                </div>
+              </div>
 
 
 
-    <form action="https://formspree.io/mjvaznlz" method="POST">
-      <div class="input-group">
-        <input type="email" name="email" class="form-control" placeholder="YOUR EMAIL">
-        <button type="submit" class="btn-submit">submit</button>
+              <!-- <div class="swiper-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw42.png">
+                </div>
+                <div class="card-content">
+                  <p class="text-blk name">
+                    Roger Rubin
+                  </p>
+                  <p class="text-blk position">
+                    Lorem ipsum
+                  </p>
+                  <p class="text-blk testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw40.png">
+                </div>
+                <div class="card-content">
+                  <p class="text-blk name">
+                    Roger Rubin
+                  </p>
+                  <p class="text-blk position">
+                    Lorem ipsum
+                  </p>
+                  <p class="text-blk testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="img-wrapper"> 
+                  <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw41.png">
+                </div>
+                <div class="card-content">
+                  <p class="text-blk name">
+                    Roger Rubin
+                  </p>
+                  <p class="text-blk position">
+                    Lorem ipsum
+                  </p>
+                  <p class="text-blk testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/aw42.png">
+                </div>
+                <div class="card-content">
+                  <p class="text-blk name">
+                    Roger Rubin
+                  </p>
+                  <p class="text-blk position">
+                    Lorem ipsum
+                  </p>
+                  <p class="text-blk testimonial">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                    eiusmod tempor incididunt ut labore et dolore magna
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="swiper-pagination container-block">
+
+          -->
+            </div>
+          </div>
+        </div>
       </div>
-    </form>
+    </div>
+
+
+
+  </section>
+
+  <form action="https://formspree.io/f/xdorenwv" method="POST" id="contactus">
+    <div class="contact_us_green">
+      <div class="responsive-container-block big-container">
+        <div class="responsive-container-block container">
+          <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-7 wk-ipadp-10 line" id="i69b-2">
+            <form class="form-box">
+              <div class="container-block form-wrapper">
+                <div class="head-text-box">
+                  <p class="text-blk contactus-head">
+                    Contact us
+                  </p>
+                  <p class="text-blk contactus-subhead">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore
+                    et dolore magna al iqua. Ut enim
+                  </p>
+                </div>
+                <div class="responsive-container-block">
+                  <div class="responsive-cell-block wk-ipadp-6 wk-tab-12 wk-mobile-12 wk-desk-6" id="i10mt-6">
+                    <label for="first-name" class="text-blk input-title">
+                      FIRST NAME
+                    </label>
+                    <input type="text" name="name" placeholder="Jane" required="" class="input" id="ijowk-6 first-name"
+                      name="FirstName">
+                  </div>
+                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                    <label for="last-name" class="text-blk input-title">
+                      LAST NAME
+                    </label>
+                    <input class="input" id="indfi-4 last-name" type="text" name="name" placeholder="Doe" required="">
+                  </div>
+                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                    <label class="text-blk input-title">
+                      EMAIL
+                    </label>
+                    <input class="input" id="ipmgh-6" type="email" name="email">
+                  </div>
+                  <div class="responsive-cell-block wk-desk-6 wk-ipadp-6 wk-tab-12 wk-mobile-12">
+                    <label for="telephone" class="text-blk input-title">
+                      PHONE NUMBER
+                    </label>
+                    <input class="input" id="imgis-5 telephone" type="telephone" name="telephone"
+                      placeholder="(555) 555-5555">
+                  </div>
+                  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-12 wk-ipadp-12" id="i634i-6">
+                    <label class="text-blk input-title">
+                      WHAT DO YOU HAVE IN MIND
+                    </label>
+                    <textarea name="message" class="textinput" id="i5vyy-6"
+                      placeholder="Please enter query..."></textarea>
+                  </div>
+                </div>
+                <div class="btn-wrapper">
+                  <button class="submit-btn" type="submit">Submit</button>
+            </form>
+
+          </div>
+        </div>
+  </form>
+  </div>
+  <div class="responsive-cell-block wk-tab-12 wk-mobile-12 wk-desk-5 wk-ipadp-10" id="ifgi">
+    <div class="container-box">
+      <div class="text-content">
+        <p class="text-blk contactus-head">
+          Contact us
+        </p>
+        <p class="text-blk contactus-subhead">
+          Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore
+          magna al iqua. Ut enim
+        </p>
+      </div>
+      <div class="workik-contact-bigbox">
+        <div class="workik-contact-box">
+          <div class="phone text-box">
+            <i class="contact-svg fa-solid fa-phone"></i>
+            <p class="contact-text">
+              <a class="contact-link" href="tel:+1 587 718 0072">+1 587 718 0072</a>
+            </p>
+          </div>
+          <div class="address text-box">
+            <i class="contact-svg fa-solid fa-envelope"></i>
+            <p class="contact-text">
+              <a class="contact-link"
+                href="mailto:manalishanbhag@thrivephysiowellness.com">manalishanbhag@thrivephysiowellness.com</a>
+            </p>
+          </div>
+          <div class="mail text-box">
+            <i class="contact-svg fa-solid fa-location-dot"></i>
+            <p class="contact-text">
+              <a class="contact-link" href="https://goo.gl/maps/L9MnjS5kQMNHsuEL6">266 4 St SW , Medicine Hat , AB T1A
+                4E5 #103 </a>
+            </p>
+          </div>
+        </div>
+        <div class="social-media-links">
+          <a href="">
+            <img class="social-svg" id="is9ym"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-mail.svg">
+          </a>
+          <a href="">
+            <img class="social-svg" id="i706n"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-twitter.svg">
+          </a>
+          <a href="">
+            <img class="social-svg" id="ib9ve"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-insta.svg">
+          </a>
+          <a href="">
+            <img class="social-svg" id="ie9fx"
+              src="https://workik-widget-assets.s3.amazonaws.com/widget-assets/images/gray-fb.svg">
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+  </div>
+  </div>
+  </div>
+  <!-- hot deals 
+  <section class="hotd section">
+
+  title  -->
+  <!-- <div class="title-wrapper">
+      <h2 class="title">HOT<span class="subtitle">DEALS</span></h2>
+    </div> -->
+
+  <!-- <form action="https://formspree.io/mjvaznlz" method="POST">
+    <div class="input-group">
+      <input type="email" name="email" class="form-control" placeholder="YOUR EMAIL">
+      <button type="submit" class="btn-submit">submit</button>
+    </div>
+  </form> -->
 
   </section>
 
@@ -265,7 +533,7 @@ Education & Prevention -->
         <div class="tab-bar">
           <a href="#home" class="tab scroll-link">Home</a>
           <a href="#services" class="tab scroll-link">Services</a>
-          <a href="#about" class="tab scroll-link">About</a>
+          <a href="#about" class="tab scroll-link">Team</a>
           <a href="#contactus" class="tab scroll-link">Contact</a>
           <!-- <a href="#gallery" class="tab scroll-link">Gallery</a> -->
 
@@ -292,7 +560,8 @@ Education & Prevention -->
       <!-- footer copyright banner  -->
 
 
-      <p class="footer-text">Copyright &copy; Thrive Physiotherapy Clinic <span id="date"></span> All Rights Reserved
+      <p class="footer-text">Copyright &copy; <a class="footer_flair" href="#home"> Thrive </a> Physiotherapy
+        Clinic<span id="date"></span> All Rights Reserved
       </p>
 
 
