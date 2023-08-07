@@ -18,7 +18,7 @@ jobs:
       - uses: actions/checkout@v1
       - uses: EddieHubCommunity/gh-action-community/src/welcome@main
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
+          github-token: ${{ secrets.WORKFLOW_ALT }}
           issue-message: "<h1>It's great having you contribute to this project</h1> Thank you so much, I appreciate all of you! :sparkles:"
           pr-message: "<h1>It's great having you contribute to this project</h1> Thank you so much, I appreciate all of you! :sparkles:"
           footer: 'You can also message me [here](https://twitter.com/prathamesh_117) for any other feedback! Feel free to reach out to me on my other handles [here](https://prathamesh-shanbhag.vercel.app), for a faster response!'
