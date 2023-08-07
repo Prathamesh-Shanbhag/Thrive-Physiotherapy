@@ -16,7 +16,7 @@ jobs:
         node-version: '14'
     - uses: EddieHubCommunity/gh-action-open-source-labels@v0.1.1
       with:
-        github-token: ${{ secrets.GITHUB_TOKEN }}
+        github-token: ${{ secrets.WORKFLOW_ALT  }}
         owner-name: ${{ github.repository_owner }}
         repository-name: ${{ github.event.repository.name }}
         # force: true # optional to clear existing labels, default to true
