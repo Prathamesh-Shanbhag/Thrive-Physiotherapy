@@ -1,3 +1,12 @@
+## [0.2.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.2.0...v0.2.1) (2023-08-11)
+
+
+### Bug Fixes
+
+* Content related Changes ([aa5269d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/aa5269d1c20df9f10076534050f00424903cf267))
+
+
+
 # [0.2.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.1.0...v0.2.0) (2023-08-07)
 
 
