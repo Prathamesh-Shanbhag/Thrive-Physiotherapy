@@ -1,3 +1,12 @@
+# [0.3.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.2.1...v0.3.0) (2023-10-03)
+
+
+### Features
+
+* Mobile Responsiveness Added ([eccc343](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/eccc34328952d7470a4d107326573bb1be48c062))
+
+
+
 ## [0.2.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.2.0...v0.2.1) (2023-08-11)
 
 
