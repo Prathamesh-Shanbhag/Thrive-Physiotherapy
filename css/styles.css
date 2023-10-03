@@ -32,7 +32,13 @@
   padding: 0;
   box-sizing: border-box;
 }
-
+html,
+body {
+  width: 100%;
+  margin: 0px;
+  padding: 0px;
+  overflow-x: hidden;
+}
 body {
   font-family: 'Bagnard', sans-serif;
   line-height: 1.4;
@@ -40,7 +46,6 @@ body {
   color: var(--mainBlack);
   background-color: var(--primaryCol);
   overflow-x: hidden;
-  /* overflow: hidden; */
 }
 ::-webkit-scrollbar {
   display: none;
@@ -117,6 +122,7 @@ a {
 /* BUTTON 19 */
 .button_text {
   color: var(--primaryCol);
+  font-size: 0.5rem;
 }
 .button-19 {
   background-color: var(--primaryCol);
@@ -145,7 +151,7 @@ a {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  width: 40%;
+  min-width: 40%;
 }
 
 .button-19:after {
@@ -235,7 +241,7 @@ a {
   background: transparent;
   outline: none;
   font-size: 1.5rem;
-  color: var(--primaryCol);
+  color: var(--secondaryCol);
   cursor: pointer;
   transition: all 0.6s ease-in-out;
 }
@@ -245,9 +251,10 @@ a {
 }
 .nav-link {
   display: block;
-  padding: 1rem 2rem;
+  /* padding: 2rem 2rem; */
   color: var(--mainBlack);
-  font-weight: bold;
+  font-size: 18px;
+  font-weight: bolder;
   letter-spacing: var(--mainSpacing);
   transition: var(--mainTransition);
 }
@@ -264,7 +271,10 @@ a {
   transition: var(--mainTransition);
 }
 .show-links {
-  height: 290px;
+  height: 590px;
+}
+.hide-hero {
+  display: none;
 }
 
 #myBtn {
@@ -305,7 +315,12 @@ a {
     padding: none;
   }
 }
-@media screen and (min-width: 850px) {
+@media screen and (min-width: 994px) {
+  .button_text {
+    font-size: 0.95rem;
+  }
+}
+@media screen and (min-width: 1032px) {
   .nav-toggle {
     display: none;
   }
@@ -354,14 +369,18 @@ a {
     color: var(--darkGrey);
     transform: translateY(-10px);
   }
+  /* .hero-wrapper {
+    left: 0.5rem;
+  } */
 }
+
 /**********************end of navbar*************************/
 /**********************hero* ************************/
 .hero {
   /* min-height: calc(100vh - 62px); */
   /* background: linear-gradient(rgba(63, 208, 212, 0.2), rgba(0, 0, 0, 0.5)); */
   background: url('../images/main.png') center/cover no-repeat;
-  height: 105vh;
+  height: 100vh;
   position: relative;
   top: 50%;
   width: 100vw;
@@ -376,7 +395,7 @@ a {
 .hero-banner {
   max-width: 90vw;
   position: relative;
-  /* left: -18%; */
+  left: -18%;
   justify-content: space-between;
   align-items: center;
   color: var(--primaryCol);
@@ -390,7 +409,7 @@ a {
 .hero-wrapper {
   position: relative;
   top: -31.5rem;
-  left: 8.5rem;
+  left: 9.5rem;
   width: 60%;
   text-align: center;
   color: var(--primaryCol);
@@ -405,7 +424,7 @@ a {
 .hero-text {
   color: var(--mainBlack);
   display: flex !important;
-  font-size: 0.8rem;
+  font-size: 1rem;
   text-align: left;
   font-family: 'Bagnard', sans-serif;
   font-weight: 600;
@@ -449,9 +468,18 @@ a {
   }
 } */
 
-@media screen and (min-width: 768px) {
+@media screen and (min-width: 730px) {
+  .hero-banner {
+    left: 0%;
+  }
+  .hero-wrapper {
+    left: 1rem;
+  }
+  .hero {
+    height: 105vh;
+  }
   .hero-text {
-    font-size: 1rem;
+    font-size: 1.2rem;
   }
   .hero-title {
     font-size: 4.5rem;
@@ -460,9 +488,6 @@ a {
     width: 70%;
   }
   .hero-banner {
-    opacity: 1;
-  }
-  .hero-wrapper {
     opacity: 1;
   }
 }
@@ -479,7 +504,10 @@ a {
 .info-title {
   text-transform: uppercase;
 }
-@media screen and (min-width: 992px) {
+@media screen and (min-width: 1032px) {
+  .hero-wrapper {
+    left: 7.5rem;
+  }
   .hero-text {
     font-size: 1.5rem;
   }

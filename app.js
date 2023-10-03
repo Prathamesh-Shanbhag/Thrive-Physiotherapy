@@ -8,13 +8,16 @@ const date = (document.getElementById('date').innerHTML =
 // nav toggling
 const navBtn = document.getElementById('nav-toggle')
 const links = document.getElementById('nav-links')
+const heroBanner = document.getElementsByClassName('hero-banner')
 
 // console.log(navBtn);
 // console.log(links);
+// console.log(heroBanner)
 
 // add event listener
 navBtn.addEventListener('click', () => {
   links.classList.toggle('show-links')
+  heroBanner[0].classList.toggle('hide-hero')
 })
 
 // // fixed navbar
