@@ -227,12 +227,13 @@ a {
 .navbar {
   width: 100%;
   position: relative;
+  /* position: fixed; */
   /* margin-bottom: 2rem; */
   top: 0;
   /* background: var(--offWhite); */
 }
 .nav-logo {
-  width: 155px;
+  width: 15px;
   height: 62px;
   padding: none;
 }
