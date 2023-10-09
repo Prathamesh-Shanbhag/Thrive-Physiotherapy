@@ -160,7 +160,7 @@ a {
   -webkit-user-select: none;
   vertical-align: middle;
   white-space: nowrap;
-  min-width: 30%;
+  min-width: 25%;
 }
 
 .button-19:after {
@@ -377,7 +377,7 @@ a {
   }
 
   .nav-link {
-    margin-left: 4.5rem;
+    margin-left: 3.5rem;
   }
   .nav-icon {
     margin-right: 0.7rem;
@@ -431,9 +431,9 @@ a {
   flex-direction: column;
   justify-content: center;
   position: relative;
-  top: -31.5rem;
-  left: 16.5rem;
-  width: 60%;
+  top: -21.5rem;
+  left: 11.5rem;
+  width: 100%;
   text-align: center;
   color: var(--primaryCol);
   padding: 0 2rem;
@@ -447,7 +447,7 @@ a {
 .hero-text {
   color: var(--mainBlack);
   display: flex !important;
-  font-size: 2rem;
+  font-size: 1.5rem;
   justify-content: center;
   text-align: center;
   margin-bottom: 0px !important;
@@ -461,7 +461,7 @@ a {
   color: var(--mainBlack);
   display: flex !important;
   justify-content: center;
-  font-size: 1.3rem;
+  font-size: 1rem;
   text-align: center;
   font-family: 'Bagnard', sans-serif;
   font-weight: 600;
@@ -471,12 +471,12 @@ a {
 }
 .hero-img {
   display: flex;
+  /* width: auto !important; */
   position: relative;
-
   left: 12rem;
   opacity: 25%;
-  max-width: 400px;
-  height: 600px;
+  max-width: 250px !important;
+  height: 400px;
 }
 
 .hero-img-container {
@@ -528,6 +528,11 @@ a {
 @media screen and (min-width: 730px) {
   .cta_container {
     margin-left: 0rem;
+    width: 50rem;
+    height: 10rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
   }
   .hero-img {
     margin-top: 0rem;
@@ -535,7 +540,7 @@ a {
     position: relative;
     left: 30rem;
     opacity: 100%;
-    max-width: 400px;
+    max-width: 400px !important;
     height: 600px;
   }
   .hero-banner {
@@ -595,7 +600,7 @@ a {
     position: relative;
     left: 60rem;
     opacity: 100%;
-    max-width: 400px;
+    max-width: 400px !important;
     height: 600px;
   }
   .hero-wrapper {
