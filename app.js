@@ -9,14 +9,18 @@ const date = (document.getElementById('date').innerHTML =
 const navBtn = document.getElementById('nav-toggle')
 const links = document.getElementById('nav-links')
 const heroBanner = document.getElementsByClassName('hero-banner')
+const showLinks = document.getElementsByClassName('hidelinks_cta')
 
 // console.log(navBtn);
-// console.log(links);
-// console.log(heroBanner)
+// console.log(links)
+console.log(heroBanner)
+console.log(showLinks)
 
 // add event listener
 navBtn.addEventListener('click', () => {
   links.classList.toggle('show-links')
+  showLinks[0].classList.toggle('showlinks_cta')
+  showLinks[1].classList.toggle('showlinks_cta')
   heroBanner[0].classList.toggle('hide-hero')
 })
 

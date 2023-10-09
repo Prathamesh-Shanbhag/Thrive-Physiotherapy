@@ -261,7 +261,7 @@ a {
 }
 .nav-link {
   display: block;
-  padding: 2rem 2rem;
+  padding: 1.5rem 2rem;
   color: var(--mainBlack);
   font-size: 18px;
   font-weight: bolder;
@@ -285,6 +285,12 @@ a {
 }
 .hide-hero {
   display: none;
+}
+.hidelinks_cta {
+  display: none;
+}
+.showlinks_cta {
+  display: block;
 }
 
 #myBtn {
