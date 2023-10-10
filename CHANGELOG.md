@@ -1,3 +1,12 @@
+## [0.4.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.2...v0.4.3) (2023-10-10)
+
+
+### Bug Fixes
+
+* Added Services back and Fixed Meet the team page ([5fbabdd](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/5fbabdd75d36dfae9231f9b9e70ceb52afaae105))
+
+
+
 ## [0.4.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.1...v0.4.2) (2023-10-10)
 
 
@@ -42,15 +51,6 @@
 ### Features
 
 * Mobile Responsiveness Added ([eccc343](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/eccc34328952d7470a4d107326573bb1be48c062))
-
-
-
-## [0.2.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.2.0...v0.2.1) (2023-08-11)
-
-
-### Bug Fixes
-
-* Content related Changes ([aa5269d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/aa5269d1c20df9f10076534050f00424903cf267))
 
 
 
