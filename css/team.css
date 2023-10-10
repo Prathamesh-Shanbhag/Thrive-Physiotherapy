@@ -999,7 +999,7 @@ a {
 .card {
   width: 340px;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   align-items: center;
   padding-top: 30px;
   padding-right: 25px;
@@ -1016,7 +1016,6 @@ a {
 .img-wrapper {
   width: 175px;
   height: 175px;
-  clip-path: circle(50% at 50% 50%);
 }
 
 .name {
