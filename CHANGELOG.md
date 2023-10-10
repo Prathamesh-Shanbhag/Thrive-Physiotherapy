@@ -1,3 +1,12 @@
+## [0.4.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.1...v0.4.2) (2023-10-10)
+
+
+### Bug Fixes
+
+* Homepage and Scroll Issue ([62f4aa9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/62f4aa9909e9070654f84b79c8f69e1fef7bc015))
+
+
+
 ## [0.4.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.0...v0.4.1) (2023-10-10)
 
 
@@ -42,15 +51,6 @@
 ### Bug Fixes
 
 * Content related Changes ([aa5269d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/aa5269d1c20df9f10076534050f00424903cf267))
-
-
-
-# [0.2.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.1.0...v0.2.0) (2023-08-07)
-
-
-### Features
-
-* Deleted Redundant Files + Added Favicon + Team Section + Contact Form Added + Smooth Scroll + Back To Top Button ([21c0000](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/21c00003c8f935053f04e48ce35ff7caf4751327))
 
 
 
