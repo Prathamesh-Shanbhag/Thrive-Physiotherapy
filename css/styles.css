@@ -129,6 +129,11 @@ a {
   justify-content: space-around;
 }
 
+/* .stop-scrolling {
+  height: 100%;
+  overflow: hidden;
+} */
+
 .button_text {
   color: var(--primaryCol);
   font-size: 0.7rem;
