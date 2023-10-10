@@ -562,9 +562,9 @@ a {
     flex-direction: column;
     justify-content: center;
     position: relative;
-    top: -31.5rem;
+    top: 9.5rem;
     left: 0.5rem;
-    width: 60%;
+    width: 100%;
     text-align: left;
     color: var(--primaryCol);
     padding: 0 2rem;
@@ -579,8 +579,7 @@ a {
     font-size: 4.5rem;
   }
   .hero-text {
-    justify-content: left;
-    width: 70%;
+    width: 100%;
   }
   .hero-subtext {
     font-size: 1.6;
@@ -615,7 +614,7 @@ a {
     height: 600px;
   }
   .hero-wrapper {
-    left: 7.5rem;
+    left: 6.5rem;
   }
 
   .about-center {
@@ -631,7 +630,7 @@ a {
 }
 @media screen and (min-width: 1170px) {
   .hero-text {
-    font-size: 2rem;
+    font-size: 5rem;
   }
   .nav-logo {
     width: 250px;
