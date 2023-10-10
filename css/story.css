@@ -198,7 +198,7 @@ a {
 }
 /* section  */
 .section {
-  padding: 5rem 0;
+  /* padding: 5rem 0; */
 }
 /* title  */
 .title-wrapper {
@@ -480,6 +480,11 @@ a {
   /* padding: 0 13rem 3rem 8rem; */
   /* letter-spacing: var(--mainSpacing); */
 }
+.story_text {
+  color: var(--secondaryCol);
+  font-size: 0.7rem;
+}
+
 .hero-img {
   display: flex;
   /* width: auto !important; */
@@ -519,6 +524,10 @@ a {
 } */
 
 @media screen and (min-width: 500px) {
+  .story_text {
+    color: var(--secondaryCol);
+    font-size: 1.4rem;
+  }
   .hero-wrapper {
     display: flex;
     flex-direction: column;
@@ -977,7 +986,7 @@ a {
 }
 
 .section-head-text {
-  font-size: 50px;
+  font-size: 25px;
   line-height: 60px;
   font-weight: 700;
   margin-top: 0px;
@@ -985,16 +994,39 @@ a {
   margin-bottom: 18px;
   margin-left: 0px;
 }
+@media screen and (min-width: 500px) {
+  .section-head-text {
+    font-size: 50px;
+    line-height: 60px;
+    font-weight: 700;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 18px;
+    margin-left: 0px;
+  }
+}
 
 .section-subhead-text {
   color: rgb(72, 72, 72);
-  font-size: 20px;
-  line-height: 27px;
-  max-width: 670px;
+  font-size: 15px;
+  line-height: 30px;
+  max-width: 100%;
   margin-top: 0px;
   margin-right: 0px;
   margin-bottom: 80px;
   margin-left: 0px;
+}
+@media screen and (min-width: 500px) {
+  .section-subhead-text {
+    color: rgb(72, 72, 72);
+    font-size: 30px;
+    line-height: 55px;
+    max-width: 100%;
+    margin-top: 0px;
+    margin-right: 0px;
+    margin-bottom: 80px;
+    margin-left: 0px;
+  }
 }
 
 .card {
