@@ -1,3 +1,13 @@
+## [0.4.4](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.3...v0.4.4) (2023-10-10)
+
+
+### Bug Fixes
+
+* Fixed Services broken link and changed form content ([9021802](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9021802c138ccbd365f71d5a8fe7bed458384dee))
+* Team Modal Fixed ([98b27cc](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/98b27cc4c06b86bd6d3fc56383251e09969811d3))
+
+
+
 ## [0.4.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.2...v0.4.3) (2023-10-10)
 
 
@@ -42,15 +52,6 @@
 ### Features
 
 * Added CTA buttons in Drop Down (Mobile Only) ([acba9f0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/acba9f0981813bb77e2e4500e979f44e6cf0118d))
-
-
-
-# [0.3.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.2.1...v0.3.0) (2023-10-03)
-
-
-### Features
-
-* Mobile Responsiveness Added ([eccc343](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/eccc34328952d7470a4d107326573bb1be48c062))
 
 
 
