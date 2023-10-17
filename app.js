@@ -3,6 +3,13 @@
 // set date
 const date = (document.getElementById('date').innerHTML =
   new Date().getFullYear())
+// Conditions Carousel
+$('.owl-carousel').owlCarousel({
+  autoplay: true,
+  center: true,
+  loop: true,
+  nav: true,
+})
 
 // nav toggling
 const navBtn = document.getElementById('nav-toggle')
