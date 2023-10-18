@@ -293,6 +293,7 @@ a {
 .nav-toggled .bar-bottom {
   transform: rotate(-45deg);
 }
+
 .nav-link {
   display: block;
   padding: 1.5rem 2rem;
