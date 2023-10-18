@@ -256,19 +256,51 @@ a {
 .nav-icons {
   display: none;
 }
-.nav-toggle {
+/* .nav-toggle {
   border: none;
-  background: transparent;
   outline: none;
   font-size: 1.5rem;
-  color: var(--secondaryCol);
+ 
   cursor: pointer;
   transition: all 0.6s ease-in-out;
 }
 
 .nav-toggle:hover {
   transform: scale(1.2);
+} */
+
+.nav-toggle {
+  margin: 2rem;
+  display: flex;
+  flex-flow: column wrap;
+  justify-content: space-between;
+  height: 2.1rem;
+  width: 2.1rem;
+  cursor: pointer;
+  color: var(--secondaryCol);
 }
+.bar-top,
+.bar-middle,
+.bar-bottom {
+  background-color: var(--secondaryCol);
+  height: 5px;
+  border-radius: 5px;
+  margin: 3px 0;
+  transform-origin: left;
+  transition: all 0.5s;
+}
+
+.nav-toggled .bar-top {
+  transform: rotate(45deg);
+}
+.nav-toggled .bar-middle {
+  transform: translateX(1rem);
+  opacity: 0;
+}
+.nav-toggled .bar-bottom {
+  transform: rotate(-45deg);
+}
+
 .nav-link {
   display: block;
   padding: 1.5rem 2rem;
@@ -364,6 +396,7 @@ a {
   .nav-toggle {
     display: none;
   }
+
   .nav-links {
     display: flex;
     height: auto;
@@ -728,6 +761,38 @@ a {
   }
 }
 /**********************end of services**************************/
+
+/* ********************CONDITIONS SECTION************* */
+.owl-item.active > div:after {
+  content: '';
+}
+.owl-item.center > div:after {
+  content: '';
+}
+.owl-item.active.center > div:after {
+  content: '';
+}
+.owl-item > div:after {
+  font-family: sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.active.center {
+  transform: scale(1);
+  -webkit-filter: grayscale(0); /* Safari 6.0 - 9.0 */
+  filter: grayscale(0);
+}
+.active {
+  transform: scale(0.8);
+  transition: 0.6s ease;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(100%);
+}
+.owl-prev .owl-next {
+  color: var(--mainBlack) !important;
+}
+
 /* featured tours section  */
 .featured {
   background: var(--mainWhite);

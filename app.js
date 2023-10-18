@@ -1,28 +1,37 @@
-// testing file
 // console.log("Hello World");
 
 // set date
 const date = (document.getElementById('date').innerHTML =
   new Date().getFullYear())
+// Conditions Carousel
+$('.owl-carousel').owlCarousel({
+  autoplay: true,
+  center: true,
+  loop: true,
+  nav: false,
+})
 
 // nav toggling
 const navBtn = document.getElementById('nav-toggle')
 const links = document.getElementById('nav-links')
 const heroBanner = document.getElementsByClassName('hero-banner')
 const showLinks = document.getElementsByClassName('hidelinks_cta')
+const teamHero = document.getElementsByClassName('team-hero')
 // const wholeBody = document.body
 
-// console.log(navBtn);
+console.log(teamHero)
 // console.log(links)
-// console.log(heroBanner)
+console.log(heroBanner)
 // console.log(showLinks)
 
 // add event listener
 navBtn.addEventListener('click', () => {
+  navBtn.classList.toggle('nav-toggled')
   // wholeBody.classList.toggle('stop-scrolling')
   links.classList.toggle('show-links')
   showLinks[0].classList.toggle('showlinks_cta')
   // showLinks[1].classList.toggle('showlinks_cta')
+  teamHero[0].classList.toggle('hide-hero')
   heroBanner[0].classList.toggle('hide-hero')
 })
 
@@ -102,6 +111,36 @@ function scrollFunction() {
 
 // When the user clicks on the button, scroll to the top of the document
 function topFunction() {
-  document.body.scrollTop = 0 // For Safari
-  document.documentElement.scrollTop = 0 // For Chrome, Firefox, IE and Opera
+  window.scrollTo({
+    top: 0,
+    behavior: 'smooth',
+  })
 }
+
+// // TEAM SLIDER
+// var swiper = new Swiper('.team-swiper', {
+//   slidesPerView: 3,
+//   spaceBetween: 30,
+//   pagination: {
+//     el: '.swiper-pagination',
+//     clickable: true,
+//   },
+//   breakpoints: {
+//     200: {
+//       slidesPerView: 1,
+//       spaceBetween: 20,
+//     },
+//     750: {
+//       slidesPerView: 2,
+//       spaceBetween: 30,
+//     },
+//     1024: {
+//       slidesPerView: 2.5,
+//       spaceBetween: 30,
+//     },
+//     1100: {
+//       slidesPerView: 3,
+//       spaceBetween: 30,
+//     },
+//   },
+// })

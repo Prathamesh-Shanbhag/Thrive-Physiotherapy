@@ -14,7 +14,14 @@
   <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
   <link rel="manifest" href="./favicon/light/site.webmanifest">
   <!-- styles -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
   <link rel="stylesheet" href="./css/styles.css" />
+
   <!-- favicon  -->
   <link rel="shortcut icon" href="./favicon/light/favicon.ico" type="image/x-icon" />
 </head>
@@ -34,9 +41,13 @@
             <a href="./index.html" style="cursor: pointer;">
               <img src="./images/Logo.png" alt="Thrive_Logo" class="nav-logo">
             </a>
-            <button type="button" class="nav-toggle" id="nav-toggle" aria-label="nav-toggler"><i
-                class="fas fa-bars"></i>
-            </button>
+
+            <div type="'button" class="nav-toggle" id="nav-toggle" aria-label="nav-toggler">
+              <div class="bar-top"></div>
+              <div class="bar-middle"></div>
+              <div class="bar-bottom"></div>
+            </div>
+
           </div>
           <!-- end of navbar header  -->
           <!-- navbar links  -->
@@ -45,7 +56,7 @@
             <a href="#services" class="nav-link scroll-link">Services</a>
             <a href="./story.html" class="nav-link">Our Story</a>
             <a href="./team.html" class="nav-link">Meet The Team</a>
-            <a href="#contactus" class="nav-link hidelinks_cta">Book an Appointment</a>
+            <a href="#contactus" class="nav-link scroll-link hidelinks_cta">Book an Appointment</a>
             <a href="#contactus" class="nav-link scroll-link">Contact Us</a>
 
             <!-- <a href="#gallery" class="nav-link scroll-link">Gallery</a> -->
@@ -100,7 +111,7 @@
   </div>
 
   </header>
-  <button onclick="topFunction()" id="myBtn" title="Go to top">
+  <button class="scroll-link" onclick="topFunction()" id="myBtn" title="Go to top">
     <span style=" font-size: large; font-weight: bolder;">Home</span>
     <!-- <i class="fa-solid fa-arrow-up"></i> -->
   </button>
@@ -269,6 +280,61 @@ Education & Prevention -->
     </div>
   </section>
   <!--end of  services section  -->
+
+  <!-- CONDITIONS TREATED SECTION -->
+  <!-- <section> -->
+  <section class="section services">
+    <!-- title  -->
+    <div class="title-wrapper">
+      <h2 class="title"><span class="subtitle">Conditions Treated</span></h2>
+    </div>
+    <!-- end of title  -->
+    <div class="section-center services-center">
+      <div class="owl-carousel">
+        <div><img src="./images/icons/conditions/1.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Chronic Pain</p>
+        </div>
+        <div><img src="./images/icons/conditions/2.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Rotator Cuff
+            Injuries</p>
+        </div>
+        <div><img src="./images/icons/conditions/3.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Neck Pain</p>
+        </div>
+        <div><img src="./images/icons/conditions/4.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Back Pain</p>
+        </div>
+        <div><img src="./images/icons/conditions/5.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Osteoarthritis
+          </p>
+        </div>
+        <div><img src="./images/icons/conditions/6.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">ACL Injuries</p>
+        </div>
+        <div><img src="./images/icons/conditions/7.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Plantar
+            Fasciitis</p>
+        </div>
+        <div><img src="./images/icons/conditions/8.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">
+            Sprains,<br>Strains,<br>Fractures</p>
+        </div>
+        <div><img src="./images/icons/conditions/9.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Ankle Pain</p>
+        </div>
+        <div><img src="./images/icons/conditions/10.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Shoulder Pain/
+            Frozen Shoulder</p>
+        </div>
+        <div><img src="./images/icons/conditions/11.png" alt="">
+          <p style="text-align: center; font-size: 1.2rem; font-family: sans-serif ;font-weight: bold;">Hip and Pelvic
+            Pain</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!--END OF  CONDITIONS TREATED SECTION -->
 
   <form action="https://formspree.io/f/xdorenwv" method="POST" id="contactus">
     <div class="contact_us_green">
