@@ -764,13 +764,13 @@ a {
 
 /* ********************CONDITIONS SECTION************* */
 .owl-item.active > div:after {
-  content: 'Condition';
+  content: '';
 }
 .owl-item.center > div:after {
-  content: 'Condition';
+  content: '';
 }
 .owl-item.active.center > div:after {
-  content: 'Condition';
+  content: '';
 }
 .owl-item > div:after {
   font-family: sans-serif;

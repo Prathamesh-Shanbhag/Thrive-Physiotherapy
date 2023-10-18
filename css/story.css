@@ -512,7 +512,7 @@ a {
 }
 .story_text {
   color: var(--secondaryCol);
-  font-size: 0.9rem;
+  font-size: 1rem;
 }
 
 .hero-img {
