@@ -1,3 +1,31 @@
+# [0.5.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.7...v0.5.0) (2023-10-18)
+
+
+### Bug Fixes
+
+* Bio Text for Desktop and Mobile ([9666e88](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9666e8865e5a7b32eb2753ab87a54105feb7d362))
+* Change Designation ([17ea9a9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/17ea9a92053ec485ee8c6d7285620dc9ac823279))
+* Fix Toggle Bar and Scroll Link to Book an Appointment ([27ff1ee](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/27ff1ee74ea27dc994d488802dc11443ac0f6f0c))
+* Remove Card + Text ([dfd15e3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/dfd15e3f9d503f667866a595936bafb03e1201f9))
+
+
+### Features
+
+* Cleanup Conditions Section  and Fix the Font size on the Story Page ([78d21af](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/78d21af6d47a62a9cd0e46b4595ac2476b2d4706))
+* Conditions Section - Added Carousel ([79e309c](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/79e309ce32e8ddd227c52aa91ca9b051e3fc48c2))
+* Story Page Revamp + Modal Added + Menu changes into cross ([6cd2c2d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/6cd2c2d3e30b30aaaeb3b2ce0356532747469810))
+
+
+
+## [0.4.7](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.6...v0.4.7) (2023-10-10)
+
+
+### Bug Fixes
+
+* Story page changed and Walk Ins changed ([ae0d2dc](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/ae0d2dc79fddbbb807c5a624d8f31e297fe0a470))
+
+
+
 ## [0.4.6](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.5...v0.4.6) (2023-10-10)
 
 
@@ -23,24 +51,6 @@
 
 * Fixed Services broken link and changed form content ([9021802](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9021802c138ccbd365f71d5a8fe7bed458384dee))
 * Team Modal Fixed ([98b27cc](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/98b27cc4c06b86bd6d3fc56383251e09969811d3))
-
-
-
-## [0.4.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.2...v0.4.3) (2023-10-10)
-
-
-### Bug Fixes
-
-* Added Services back and Fixed Meet the team page ([5fbabdd](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/5fbabdd75d36dfae9231f9b9e70ceb52afaae105))
-
-
-
-## [0.4.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.1...v0.4.2) (2023-10-10)
-
-
-### Bug Fixes
-
-* Homepage and Scroll Issue ([62f4aa9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/62f4aa9909e9070654f84b79c8f69e1fef7bc015))
 
 
 

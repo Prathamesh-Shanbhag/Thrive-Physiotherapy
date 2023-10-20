@@ -15,6 +15,12 @@
   <link rel="manifest" href="./favicon/light/site.webmanifest">
   <!-- styles -->
   <link rel="stylesheet" href="./css/story.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.0/jquery.min.js"></script>
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.carousel.min.css" />
+  <link rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.0.0-beta.2.4/assets/owl.theme.default.css" />
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2//2.0.0-beta.2.4/owl.carousel.min.js"></script>
   <!-- favicon  -->
   <link rel="shortcut icon" href="./favicon/light/favicon.ico" type="image/x-icon" />
 </head>
@@ -34,9 +40,11 @@
             <a href="./index.html" style="cursor: pointer;">
               <img src="./images/Logo.png" alt="Thrive_Logo" class="nav-logo">
             </a>
-            <button type="button" class="nav-toggle" id="nav-toggle" aria-label="nav-toggler"><i
-                class="fas fa-bars"></i>
-            </button>
+            <div type="'button" class="nav-toggle" id="nav-toggle" aria-label="nav-toggler">
+              <div class="bar-top"></div>
+              <div class="bar-middle"></div>
+              <div class="bar-bottom"></div>
+            </div>
           </div>
           <!-- end of navbar header  -->
           <!-- navbar links  -->
@@ -45,7 +53,7 @@
             <a href="./index.html#services" class="nav-link">Services</a>
             <a href="story.html" class="nav-link">Our Story</a>
             <a href="team.html" class="nav-link">Meet The Team</a>
-            <a href="#contactus" class="nav-link hidelinks_cta">Book an Appointment</a>
+            <a href="#contactus" class="nav-link scroll-link hidelinks_cta">Book an Appointment</a>
             <a href="#contactus" class="nav-link scroll-link">Contact Us</a>
 
             <!-- <a href="#gallery" class="nav-link scroll-link">Gallery</a> -->
