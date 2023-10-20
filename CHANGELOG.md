@@ -1,3 +1,12 @@
+## [0.5.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.0...v0.5.1) (2023-10-20)
+
+
+### Bug Fixes
+
+* Degree Designation Contetn ([bdbf1da](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/bdbf1da67d8cf242e66b06b3d652f2a36e277980))
+
+
+
 # [0.5.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.7...v0.5.0) (2023-10-18)
 
 
@@ -41,16 +50,6 @@
 ### Bug Fixes
 
 * Story page content changes ([b36097b](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/b36097b8dd553f3a98b5b3e7ef435529c7a3dc19))
-
-
-
-## [0.4.4](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.3...v0.4.4) (2023-10-10)
-
-
-### Bug Fixes
-
-* Fixed Services broken link and changed form content ([9021802](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9021802c138ccbd365f71d5a8fe7bed458384dee))
-* Team Modal Fixed ([98b27cc](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/98b27cc4c06b86bd6d3fc56383251e09969811d3))
 
 
 
