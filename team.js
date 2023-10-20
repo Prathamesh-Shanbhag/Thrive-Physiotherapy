@@ -31,7 +31,7 @@ navBtn.addEventListener('click', () => {
   links.classList.toggle('show-links')
   showLinks[0].classList.toggle('showlinks_cta')
   // showLinks[1].classList.toggle('showlinks_cta')
-  heroBanner[0].classList.toggle('hide-hero')
+  teamHero[0].classList.toggle('hide-hero')
 })
 
 // // fixed navbar
