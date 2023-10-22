@@ -1,3 +1,12 @@
+## [0.5.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.1...v0.5.2) (2023-10-20)
+
+
+### Bug Fixes
+
+* Back to Top Button ([5e687f1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/5e687f108c4f2c297640899a768feeeee42f1f5a))
+
+
+
 ## [0.5.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.0...v0.5.1) (2023-10-20)
 
 
@@ -41,15 +50,6 @@
 ### Bug Fixes
 
 * Story page changed and Walk Ins changed ([832a9e5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/832a9e50734298c9a915cd76232abc21b436bcd4))
-
-
-
-## [0.4.5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.4...v0.4.5) (2023-10-10)
-
-
-### Bug Fixes
-
-* Story page content changes ([b36097b](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/b36097b8dd553f3a98b5b3e7ef435529c7a3dc19))
 
 
 
