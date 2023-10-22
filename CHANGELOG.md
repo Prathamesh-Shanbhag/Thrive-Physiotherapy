@@ -1,3 +1,12 @@
+# [0.6.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.2...v0.6.0) (2023-10-22)
+
+
+### Features
+
+* Conditions Treated New Panel with Graphics ([873cf39](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/873cf397fa4b3297af05a31142e37e47696ad1c4))
+
+
+
 ## [0.5.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.1...v0.5.2) (2023-10-20)
 
 
@@ -41,15 +50,6 @@
 ### Bug Fixes
 
 * Story page changed and Walk Ins changed ([ae0d2dc](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/ae0d2dc79fddbbb807c5a624d8f31e297fe0a470))
-
-
-
-## [0.4.6](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.5...v0.4.6) (2023-10-10)
-
-
-### Bug Fixes
-
-* Story page changed and Walk Ins changed ([832a9e5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/832a9e50734298c9a915cd76232abc21b436bcd4))
 
 
 
