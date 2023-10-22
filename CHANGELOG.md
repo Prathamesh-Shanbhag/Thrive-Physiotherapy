@@ -1,3 +1,12 @@
+## [0.6.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.0...v0.6.1) (2023-10-22)
+
+
+### Bug Fixes
+
+* Reduced Image Size < 5mb ([c185e0d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/c185e0d968024193c0326b270b3337808dc7ccf2))
+
+
+
 # [0.6.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.2...v0.6.0) (2023-10-22)
 
 
@@ -41,15 +50,6 @@
 * Cleanup Conditions Section  and Fix the Font size on the Story Page ([78d21af](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/78d21af6d47a62a9cd0e46b4595ac2476b2d4706))
 * Conditions Section - Added Carousel ([79e309c](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/79e309ce32e8ddd227c52aa91ca9b051e3fc48c2))
 * Story Page Revamp + Modal Added + Menu changes into cross ([6cd2c2d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/6cd2c2d3e30b30aaaeb3b2ce0356532747469810))
-
-
-
-## [0.4.7](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.4.6...v0.4.7) (2023-10-10)
-
-
-### Bug Fixes
-
-* Story page changed and Walk Ins changed ([ae0d2dc](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/ae0d2dc79fddbbb807c5a624d8f31e297fe0a470))
 
 
 
