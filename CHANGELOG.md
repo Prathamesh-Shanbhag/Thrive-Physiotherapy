@@ -1,3 +1,12 @@
+# [0.9.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.8.0...v0.9.0) (2023-11-09)
+
+
+### Features
+
+* Meta Tags added for SEO ([d3a6dd5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/d3a6dd581beb20150701e2945b751ce06b90116c))
+
+
+
 # [0.8.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.7.0...v0.8.0) (2023-11-09)
 
 
@@ -32,15 +41,6 @@
 
 * Change sub-text trial ([c2c0235](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/c2c023567a43f0dab0a373d692ccb56ab59029f3))
 * Formspree Page Details Changed ([66d461f](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/66d461f5a58d2affeaabb1a7e7fa5daab7ab50aa))
-
-
-
-## [0.6.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.0...v0.6.1) (2023-10-22)
-
-
-### Bug Fixes
-
-* Reduced Image Size < 5mb ([c185e0d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/c185e0d968024193c0326b270b3337808dc7ccf2))
 
 
 
