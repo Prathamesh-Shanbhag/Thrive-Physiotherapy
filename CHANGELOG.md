@@ -1,3 +1,12 @@
+# [0.8.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.7.0...v0.8.0) (2023-11-09)
+
+
+### Features
+
+* Vercel Analytics Snippet ([dbeefc9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/dbeefc98b16a4f2566d382fc45abd89af027c338))
+
+
+
 # [0.7.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.3...v0.7.0) (2023-11-09)
 
 
@@ -32,15 +41,6 @@
 ### Bug Fixes
 
 * Reduced Image Size < 5mb ([c185e0d](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/c185e0d968024193c0326b270b3337808dc7ccf2))
-
-
-
-# [0.6.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.2...v0.6.0) (2023-10-22)
-
-
-### Features
-
-* Conditions Treated New Panel with Graphics ([873cf39](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/873cf397fa4b3297af05a31142e37e47696ad1c4))
 
 
 
