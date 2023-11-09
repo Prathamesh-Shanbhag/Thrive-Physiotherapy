@@ -1,3 +1,12 @@
+# [0.7.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.3...v0.7.0) (2023-11-09)
+
+
+### Features
+
+* CTA Appointement Button Integrated with EMR System ([52a9b72](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/52a9b72c501a5fc9ac82c989da63d6cef33230d0))
+
+
+
 ## [0.6.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.2...v0.6.3) (2023-11-07)
 
 
@@ -32,15 +41,6 @@
 ### Features
 
 * Conditions Treated New Panel with Graphics ([873cf39](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/873cf397fa4b3297af05a31142e37e47696ad1c4))
-
-
-
-## [0.5.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.5.1...v0.5.2) (2023-10-20)
-
-
-### Bug Fixes
-
-* Back to Top Button ([5e687f1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/5e687f108c4f2c297640899a768feeeee42f1f5a))
 
 
 
