@@ -1,3 +1,12 @@
+# [0.10.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.9.0...v0.10.0) (2023-11-13)
+
+
+### Features
+
+* Canonical Links Updated on all pages ([9101579](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9101579704ff75ff12a8956dfdfc2342d4de6a33))
+
+
+
 # [0.9.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.8.0...v0.9.0) (2023-11-09)
 
 
@@ -31,16 +40,6 @@
 ### Bug Fixes
 
 * Font Size on Story Page ([6257ccd](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/6257ccd6ee90a852ee8f11389bab2f851ce0943c))
-
-
-
-## [0.6.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.1...v0.6.2) (2023-10-26)
-
-
-### Bug Fixes
-
-* Change sub-text trial ([c2c0235](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/c2c023567a43f0dab0a373d692ccb56ab59029f3))
-* Formspree Page Details Changed ([66d461f](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/66d461f5a58d2affeaabb1a7e7fa5daab7ab50aa))
 
 
 
