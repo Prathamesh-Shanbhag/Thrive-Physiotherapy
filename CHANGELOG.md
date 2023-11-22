@@ -1,3 +1,12 @@
+# [0.11.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.10.0...v0.11.0) (2023-11-22)
+
+
+### Features
+
+* Facebook Page Updated ([e9586f8](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/e9586f871852b2e4910739252c0d951fe055fab9))
+
+
+
 # [0.10.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.9.0...v0.10.0) (2023-11-13)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * CTA Appointement Button Integrated with EMR System ([52a9b72](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/52a9b72c501a5fc9ac82c989da63d6cef33230d0))
-
-
-
-## [0.6.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.6.2...v0.6.3) (2023-11-07)
-
-
-### Bug Fixes
-
-* Font Size on Story Page ([6257ccd](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/6257ccd6ee90a852ee8f11389bab2f851ce0943c))
 
 
 
