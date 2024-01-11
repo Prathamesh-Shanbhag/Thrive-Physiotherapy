@@ -1,3 +1,12 @@
+# [0.13.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.12.0...v0.13.0) (2024-01-11)
+
+
+### Features
+
+* New member added+Newsletter Modal Added ([779033b](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/779033bb9e81b501d2e0738c9ffafd85f86d9ebc))
+
+
+
 # [0.12.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.11.0...v0.12.0) (2023-12-04)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Meta Tags added for SEO ([d3a6dd5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/d3a6dd581beb20150701e2945b751ce06b90116c))
-
-
-
-# [0.8.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.7.0...v0.8.0) (2023-11-09)
-
-
-### Features
-
-* Vercel Analytics Snippet ([dbeefc9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/dbeefc98b16a4f2566d382fc45abd89af027c338))
 
 
 
