@@ -1,3 +1,12 @@
+# [0.14.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.13.0...v0.14.0) (2024-01-14)
+
+
+### Features
+
+* New member mobile description changed ([86d440f](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/86d440f5fb5e14985a0dd4ae27385a6583b7b0f4))
+
+
+
 # [0.13.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.12.0...v0.13.0) (2024-01-11)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Canonical Links Updated on all pages ([9101579](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9101579704ff75ff12a8956dfdfc2342d4de6a33))
-
-
-
-# [0.9.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.8.0...v0.9.0) (2023-11-09)
-
-
-### Features
-
-* Meta Tags added for SEO ([d3a6dd5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/d3a6dd581beb20150701e2945b751ce06b90116c))
 
 
 
