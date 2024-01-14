@@ -182,6 +182,7 @@ function readCookie(name) {
 }
 function eraseCookie(name) {
   createCookie(name, '', -1)
+  console.log(name)
 }
 window.onload = function () {
   eraseCookie('seen')
