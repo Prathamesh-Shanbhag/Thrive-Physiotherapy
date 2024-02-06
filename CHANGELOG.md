@@ -1,3 +1,12 @@
+# [0.15.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.14.0...v0.15.0) (2024-02-06)
+
+
+### Features
+
+* Added Google Tag Manager ([3e7ca78](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/3e7ca78649a78165e80ddc3d380a19f98e660568))
+
+
+
 # [0.14.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.13.0...v0.14.0) (2024-01-14)
 
 
@@ -31,15 +40,6 @@
 ### Features
 
 * Facebook Page Updated ([e9586f8](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/e9586f871852b2e4910739252c0d951fe055fab9))
-
-
-
-# [0.10.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.9.0...v0.10.0) (2023-11-13)
-
-
-### Features
-
-* Canonical Links Updated on all pages ([9101579](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/9101579704ff75ff12a8956dfdfc2342d4de6a33))
 
 
 
