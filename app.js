@@ -144,12 +144,13 @@ function topFunction() {
 //   },
 // })
 //
+
 // Newsletter>>>>>>>>>>>>>>>>>>>>>>>>>>>>
 
 document.querySelector('.close').onclick = function () {
   document.querySelector('.modalDialog').style.display = 'none'
 }
-
+console.log(createCookie)
 // setInterval(function () {
 //   console.log( )
 // }, 200)

@@ -354,6 +354,11 @@ a {
 #myBtn:hover {
   background-color: #5e5e5e; /* Add a dark-grey background on hover */
 }
+@media screen and (max-width: 597px) {
+  #myBtn {
+    font-size: 1.6rem;
+  }
+}
 
 /* fixed navbar  */
 .fixed {
@@ -462,6 +467,12 @@ a {
   -moz-transition: opacity 200ms ease-in;
   transition: opacity 200ms ease-in;
 }
+@media screen and (max-width: 597px) {
+  .newsletter {
+    visibility: hidden;
+  }
+}
+
 .modalDialog:target {
   opacity: 1;
   pointer-events: auto;
