@@ -1,3 +1,13 @@
+## [0.15.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.0...v0.15.1) (2024-02-15)
+
+
+### Bug Fixes
+
+* Typos in Content ([d5ce2f9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/d5ce2f94c610103428610456461e7c75e282ad3c))
+* Typos in Content ([43bf9a6](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/43bf9a67b4b8d42c2cbe5297e1715924e3264d83))
+
+
+
 # [0.15.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.14.0...v0.15.0) (2024-02-06)
 
 
@@ -31,15 +41,6 @@
 ### Features
 
 * New member added ([3cf43a1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/3cf43a1a8b0be2a51f9637bc101de41744fc9957))
-
-
-
-# [0.11.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.10.0...v0.11.0) (2023-11-22)
-
-
-### Features
-
-* Facebook Page Updated ([e9586f8](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/e9586f871852b2e4910739252c0d951fe055fab9))
 
 
 
