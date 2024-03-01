@@ -1,3 +1,13 @@
+## [0.15.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.2...v0.15.3) (2024-03-01)
+
+
+### Bug Fixes
+
+* Typo & Resetting Merged Branch Errors ([f7e3532](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/f7e35320dcb107f784c33a7b22a4832c4955bbdf))
+* Typo in Content. ([02e3c9c](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/02e3c9c6d557abdd236e2d2014381fe31366ad8d))
+
+
+
 ## [0.15.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.1...v0.15.2) (2024-02-23)
 
 
@@ -32,15 +42,6 @@
 ### Features
 
 * New member mobile description changed ([86d440f](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/86d440f5fb5e14985a0dd4ae27385a6583b7b0f4))
-
-
-
-# [0.13.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.12.0...v0.13.0) (2024-01-11)
-
-
-### Features
-
-* New member added+Newsletter Modal Added ([779033b](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/779033bb9e81b501d2e0738c9ffafd85f86d9ebc))
 
 
 
