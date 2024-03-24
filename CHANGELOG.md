@@ -1,3 +1,12 @@
+## [0.15.4](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.3...v0.15.4) (2024-03-02)
+
+
+### Bug Fixes
+
+* Adding accessibility in images and testing releases ([2854ab5](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/2854ab535a0a0cd505d5a220ac2f696af9b0911d))
+
+
+
 ## [0.15.3](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.2...v0.15.3) (2024-03-01)
 
 
@@ -33,15 +42,6 @@
 ### Features
 
 * Added Google Tag Manager ([3e7ca78](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/3e7ca78649a78165e80ddc3d380a19f98e660568))
-
-
-
-# [0.14.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.13.0...v0.14.0) (2024-01-14)
-
-
-### Features
-
-* New member mobile description changed ([86d440f](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/86d440f5fb5e14985a0dd4ae27385a6583b7b0f4))
 
 
 
