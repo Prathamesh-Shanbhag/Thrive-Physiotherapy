@@ -1,3 +1,12 @@
+## [0.16.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.16.1...v0.16.2) (2024-03-24)
+
+
+### Bug Fixes
+
+* Random Typo ([deae5e7](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/deae5e747ab61f7267fcc44e727fce9294f021af))
+
+
+
 ## [0.16.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.16.0...v0.16.1) (2024-03-24)
 
 
@@ -32,15 +41,6 @@
 
 * Typo & Resetting Merged Branch Errors ([f7e3532](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/f7e35320dcb107f784c33a7b22a4832c4955bbdf))
 * Typo in Content. ([02e3c9c](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/02e3c9c6d557abdd236e2d2014381fe31366ad8d))
-
-
-
-## [0.15.2](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.1...v0.15.2) (2024-02-23)
-
-
-### Bug Fixes
-
-* Newsletter Modal Covering Mobile View ([b08e2e8](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/b08e2e861ac6f7385cf65269a78524dac32cfb68))
 
 
 
