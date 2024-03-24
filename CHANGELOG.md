@@ -1,3 +1,12 @@
+## [0.16.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.16.0...v0.16.1) (2024-03-24)
+
+
+### Bug Fixes
+
+* Remove Newsletter Modal ([17fb99b](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/17fb99b52686ca2332dbb70f0734884b9b4683ae))
+
+
+
 # [0.16.0](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.4...v0.16.0) (2024-03-24)
 
 
@@ -32,16 +41,6 @@
 ### Bug Fixes
 
 * Newsletter Modal Covering Mobile View ([b08e2e8](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/b08e2e861ac6f7385cf65269a78524dac32cfb68))
-
-
-
-## [0.15.1](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/compare/v0.15.0...v0.15.1) (2024-02-15)
-
-
-### Bug Fixes
-
-* Typos in Content ([d5ce2f9](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/d5ce2f94c610103428610456461e7c75e282ad3c))
-* Typos in Content ([43bf9a6](https://github.com/Prathamesh-Shanbhag/Thrive-Physiotherapy/commit/43bf9a67b4b8d42c2cbe5297e1715924e3264d83))
 
 
 
