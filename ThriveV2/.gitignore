@@ -13,6 +13,7 @@ temp_html/
 # Ignore log files
 *.log
 
+
 # Ignore compiled binaries or build directories
 /build/
 /dist/
@@ -20,9 +21,10 @@ temp_html/
 # Ignore environment-specific files
 .env
 
+
+pelvic_floor.html
 test.js
 test.html
 test.css
 rest.html
-old_assets/
-
+assets_pelvicpage/

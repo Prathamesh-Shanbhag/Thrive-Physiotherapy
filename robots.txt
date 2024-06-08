@@ -1,3 +1,13 @@
 User-agent: *
 Disallow: /images/
 Disallow: /restricted-page.html
+Disallow: /admin/
+Disallow: /private/
+Disallow: /cgi-bin/
+Disallow: /tmp/
+Disallow: /checkout/
+Disallow: /search.php
+Disallow: /profile/*/edit/
+Disallow: /css/
+Disallow: /js/
+Allow: /images/public/

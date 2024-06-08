@@ -12,18 +12,43 @@
   }
 
   // ======= Sticky
-  window.onscroll = function () {
+  window.addEventListener('scroll', handleScroll)
+
+  function handleScroll() {
     const header_navbar = document.querySelector('.navbar-area')
-    const sticky = header_navbar.offsetTop
     const logo = document.querySelector('.navbar-brand img')
 
-    if (window.pageYOffset > sticky) {
+    if (!header_navbar || !logo) return
+
+    const sticky = header_navbar.offsetTop
+
+    if (
+      window.scrollY > sticky &&
+      !header_navbar.classList.contains('sticky')
+    ) {
       header_navbar.classList.add('sticky')
       logo.src = 'assets/images/logo/logo-2.svg'
-    } else {
+    } else if (
+      window.scrollY <= sticky &&
+      header_navbar.classList.contains('sticky')
+    ) {
       header_navbar.classList.remove('sticky')
       logo.src = 'assets/images/logo/logo.svg'
     }
+  }
+
+  window.onscroll = function () {
+    // const header_navbar = document.querySelector('.navbar-area')
+    // const sticky = header_navbar.offsetTop
+    // const logo = document.querySelector('.navbar-brand img')
+
+    // if (window.scrollY > sticky) {
+    //   header_navbar.classList.add('sticky')
+    //   logo.src = 'assets/images/logo/logo-2.svg'
+    // } else {
+    //   header_navbar.classList.remove('sticky')
+    //   logo.src = 'assets/images/logo/logo.svg'
+    // }
 
     // show or hide the back-top-top button
     const backToTop = document.querySelector('.back-to-top')
@@ -54,7 +79,7 @@
   function onScroll(event) {
     const sections = document.querySelectorAll('.page-scroll')
     const scrollPos =
-      window.pageYOffset ||
+      window.scrollY ||
       document.documentElement.scrollTop ||
       document.body.scrollTop
 
@@ -80,6 +105,7 @@
   //===== close navbar-collapse when a  clicked
   let navbarToggler = document.querySelector('.navbar-toggler')
   const navbarCollapse = document.querySelector('.navbar-collapse')
+  const navbarLinks = document.getElementById('nav')
 
   document.querySelectorAll('.page-scroll').forEach((e) =>
     e.addEventListener('click', () => {
@@ -89,6 +115,8 @@
   )
   navbarToggler.addEventListener('click', function () {
     navbarToggler.classList.toggle('active')
+    navbarLinks.children[5].classList.toggle('hidden')
+    navbarLinks.children[6].classList.toggle('hidden')
   })
 
   // ========= glightbox
