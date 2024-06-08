@@ -1,0 +1,12 @@
+<svg width="119.036" height="118.984" xmlns="http://www.w3.org/2000/svg">
+ <defs>
+  <linearGradient gradientUnits="objectBoundingBox" y2="1" x2="0.5" x1="0.5" id="linear-gradient">
+   <stop stop-color="#33c8c1" offset="0"/>
+   <stop stop-color="#119bd2" offset="1"/>
+  </linearGradient>
+ </defs>
+ <g>
+  <title>Layer 1</title>
+  <rect stroke="null" opacity="0.15" id="svg_2" height="119.41175" width="118.82352" y="-0.13907" x="0.10624" fill="url(#linear-gradient)"/>
+ </g>
+</svg>
