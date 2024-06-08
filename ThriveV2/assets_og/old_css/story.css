@@ -440,7 +440,7 @@ a {
 .hero {
   /* min-height: calc(100vh - 62px); */
   /* background: linear-gradient(rgba(63, 208, 212, 0.2), rgba(0, 0, 0, 0.5)); */
-  background: url('../images/main.png') center/cover no-repeat;
+  background: url('../images/header/main.png') center/cover no-repeat;
   height: 100vh;
   position: relative;
   top: 50%;
