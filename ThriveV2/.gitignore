@@ -20,10 +20,11 @@ temp_html/
 
 # Ignore environment-specific files
 .env
-ThriveV2\pelvic_floor.html
+
+
+pelvic_floor.html
 test.js
 test.html
 test.css
 rest.html
 assets_pelvicpage/
-assets_pelvicpage/images/
