@@ -138,6 +138,16 @@
   })
   cu.start()
 
+  // ========= Back to top toggle based on device resolution
+  if (screen.width < 768) {
+    document
+      .getElementById('backtoTop')
+      .setAttribute(
+        'href',
+        'https://thrivephysiotherapycp.clinicmaster.com/book-online/booking-reasons?clinicId=3278&lang=en-CA'
+      )
+  }
+
   //=====  WOW active
   new WOW().init()
 
