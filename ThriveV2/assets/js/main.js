@@ -386,9 +386,9 @@ const date = (document.getElementById('date').innerHTML =
 
 // Array of image URLs
 const images = [
-  'assets/images/header/header-hero-1.png',
-  'assets/images/header/header-hero-2.png',
-  'assets/images/header/header-hero-3.png',
+  'assets/images/header/header-hero-1.webp',
+  'assets/images/header/header-hero-2.webp',
+  'assets/images/header/header-hero-3.webp',
 ]
 
 // Get the element
