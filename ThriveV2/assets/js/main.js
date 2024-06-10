@@ -381,3 +381,44 @@
 
 const date = (document.getElementById('date').innerHTML =
   new Date().getFullYear())
+
+//  Change Background every 5 seconds
+
+// Array of image URLs
+const images = [
+  'assets/images/header/header-hero-1.png',
+  'assets/images/header/header-hero-2.png',
+  'assets/images/header/header-hero-3.png',
+]
+
+// Get the element
+const headerHero = document.getElementById('home')
+
+// Initialize the index
+let currentIndex = 0
+
+// Function to change the background image
+const changeBackgroundImage = () => {
+  // Fade out the current background image
+  headerHero.classList.remove('fade-in')
+  headerHero.classList.add('fade-out')
+
+  // Wait for the fade-out effect to complete
+  setTimeout(() => {
+    // Change the background image
+    headerHero.style.backgroundImage = `url(${images[currentIndex]})`
+
+    // Fade in the new background image
+    headerHero.classList.remove('fade-out')
+    headerHero.classList.add('fade-in')
+
+    // Update the index to the next image
+    currentIndex = (currentIndex + 1) % images.length
+  }, 1000) // Match the transition duration in CSS
+}
+
+// Change image every 5 seconds (5000 milliseconds)
+setInterval(changeBackgroundImage, 5000)
+
+// Initial call to set the first image
+changeBackgroundImage()

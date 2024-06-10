@@ -1,0 +1,15 @@
+.header-hero {
+  position: relative;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  transition: opacity 0.5s ease-in-out;
+}
+
+.header-hero.fade-out {
+  opacity: 0;
+}
+
+.header-hero.fade-in {
+  opacity: 1;
+}
