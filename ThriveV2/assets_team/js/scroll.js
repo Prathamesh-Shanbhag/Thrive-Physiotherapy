@@ -39,4 +39,6 @@ scroll()
 // Add the scroll event listener
 if (screen.width > 768) {
   window.addEventListener('scroll', scroll)
+} else {
+  svg.classList.add('hidden')
 }
