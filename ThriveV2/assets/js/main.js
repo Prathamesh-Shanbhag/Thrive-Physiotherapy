@@ -1,5 +1,5 @@
 ;(function () {
-  'use strict'
+  ;('use strict')
 
   // ==== Preloader
   window.onload = function () {
@@ -146,6 +146,15 @@
         'href',
         'https://thrivephysiotherapycp.clinicmaster.com/book-online/booking-reasons?clinicId=3278&lang=en-CA'
       )
+  }
+
+  // ========= Maps Size toggle based on device resolution
+  const mapsMobile = document.getElementsByClassName('maps_mobile')
+  const mapsDesktop = document.getElementsByClassName('maps_desktop')
+
+  if (screen.width < 768) {
+    mapsMobile[0].classList.remove('hidden')
+    mapsDesktop[0].classList.add('hidden')
   }
 
   //=====  WOW active
@@ -381,7 +390,6 @@
 
 const date = (document.getElementById('date').innerHTML =
   new Date().getFullYear())
-
 //  Change Background every 5 seconds
 
 // Array of image URLs
@@ -389,6 +397,11 @@ const images = [
   'assets/images/header/header-hero-1.webp',
   'assets/images/header/header-hero-2.webp',
   'assets/images/header/header-hero-3.webp',
+  'assets/images/header/header-hero-4.webp',
+  'assets/images/header/header-hero-5.webp',
+  'assets/images/header/header-hero-6.webp',
+  'assets/images/header/header-hero-7.webp',
+  'assets/images/header/header-hero-8.webp',
 ]
 
 // Get the element
@@ -407,6 +420,7 @@ const changeBackgroundImage = () => {
   setTimeout(() => {
     // Change the background image
     headerHero.style.backgroundImage = `url(${images[currentIndex]})`
+    headerHero.style.transition = 'opacity 2s ease-in-out'
 
     // Fade in the new background image
     headerHero.classList.remove('fade-out')
@@ -418,7 +432,7 @@ const changeBackgroundImage = () => {
 }
 
 // Change image every 5 seconds (5000 milliseconds)
-setInterval(changeBackgroundImage, 5000)
+setInterval(changeBackgroundImage, 7000)
 
 // Initial call to set the first image
 changeBackgroundImage()

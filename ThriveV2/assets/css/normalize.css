@@ -6,10 +6,10 @@
   transition: opacity 0.5s ease-in-out;
 }
 
-.header-hero.fade-out {
+.header-hero .fade-out {
   opacity: 0;
 }
 
-.header-hero.fade-in {
+.header-hero img .fade-in {
   opacity: 1;
 }
