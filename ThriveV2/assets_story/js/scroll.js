@@ -42,3 +42,10 @@ if (screen.width > 768) {
 } else {
   svg.classList.add('hidden')
 }
+
+// Hide Line
+const mobileLine = document.getElementsByClassName('focus_line')
+
+if (screen.width < 768) {
+  mobileLine[0].classList.remove('hidden')
+}

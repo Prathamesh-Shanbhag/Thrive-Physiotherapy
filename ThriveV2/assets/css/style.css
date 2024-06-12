@@ -504,7 +504,7 @@ p {
   -webkit-box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   box-shadow: inset 0 -1px 0 0 rgba(0, 0, 0, 0.1);
   -webkit-transition: all 0.3s ease-out 0s;
-  /* transition: all 0.3s ease-out 0s; */
+  transition: all 0.3s ease-out 0s;
 }
 
 .sticky .navbar {
@@ -1514,8 +1514,8 @@ p {
   font-size: 1rem;
   color: #fff;
   position: fixed;
-  right: 20px;
-  bottom: 20px;
+  right: 1.25rem;
+  bottom: 1.25rem;
   width: 7rem;
   height: 2.5rem;
   border-radius: 5px;
@@ -1546,6 +1546,43 @@ p {
   color: #fff;
   background-position: right center;
 }
+
+.call_now {
+  font-size: 1rem;
+  color: #fff;
+  position: fixed;
+  right: 1.25rem;
+  bottom: 4rem;
+  width: 7rem;
+  height: 2.5rem;
+  border-radius: 5px;
+  background: -webkit-gradient(
+    linear,
+    left top,
+    left bottom,
+    from(var(--primaryCol)),
+    to(#9daf86)
+  );
+
+  background: linear-gradient(var(--primaryCol) 0%, #9daf86 100%);
+  background-size: 200%;
+  text-align: center;
+  z-index: 99;
+  -webkit-transition: all 0.3s ease-out 0s;
+  transition: all 0.3s ease-out 0s;
+  display: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+}
+.call_now:hover {
+  color: #fff;
+  background-position: right center;
+}
+
 /* // ADDED CSS  */
 .contact-link {
   color: var(--secondaryCol);

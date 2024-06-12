@@ -52,13 +52,16 @@
 
     // show or hide the back-top-top button
     const backToTop = document.querySelector('.back-to-top')
+    const callNow = document.querySelector('.call_now')
     if (
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
     ) {
       backToTop.style.display = 'flex'
+      callNow.style.display = 'flex'
     } else {
       backToTop.style.display = 'none'
+      callNow.style.display = 'none'
     }
   }
 
@@ -105,7 +108,6 @@
   //===== close navbar-collapse when a  clicked
   let navbarToggler = document.querySelector('.navbar-toggler')
   const navbarCollapse = document.querySelector('.navbar-collapse')
-  const navbarLinks = document.getElementById('nav')
 
   document.querySelectorAll('.page-scroll').forEach((e) =>
     e.addEventListener('click', () => {
@@ -115,13 +117,11 @@
   )
   navbarToggler.addEventListener('click', function () {
     navbarToggler.classList.toggle('active')
-    navbarLinks.children[5].classList.toggle('hidden')
-    navbarLinks.children[6].classList.toggle('hidden')
   })
 
   // ========= glightbox
   const myGallery = GLightbox({
-    href: 'https://drive.google.com/drive/u/3/folders/1GyTpMBLWSOv_ScX9771Clg3KosV5FMci',
+    href: 'https://youtu.be/QFPXroybyvs',
     type: 'video',
     source: 'local', //vimeo, youtube or local
     width: 900,
