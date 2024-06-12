@@ -1,5 +1,5 @@
 ;(function () {
-  'use strict'
+  ;('use strict')
 
   // ==== Preloader
   window.onload = function () {
@@ -52,13 +52,16 @@
 
     // show or hide the back-top-top button
     const backToTop = document.querySelector('.back-to-top')
+    const callNow = document.querySelector('.call_now')
     if (
       document.body.scrollTop > 50 ||
       document.documentElement.scrollTop > 50
     ) {
       backToTop.style.display = 'flex'
+      callNow.style.display = 'flex'
     } else {
       backToTop.style.display = 'none'
+      callNow.style.display = 'none'
     }
   }
 
@@ -105,7 +108,6 @@
   //===== close navbar-collapse when a  clicked
   let navbarToggler = document.querySelector('.navbar-toggler')
   const navbarCollapse = document.querySelector('.navbar-collapse')
-  const navbarLinks = document.getElementById('nav')
 
   document.querySelectorAll('.page-scroll').forEach((e) =>
     e.addEventListener('click', () => {
@@ -115,13 +117,11 @@
   )
   navbarToggler.addEventListener('click', function () {
     navbarToggler.classList.toggle('active')
-    navbarLinks.children[5].classList.toggle('hidden')
-    navbarLinks.children[6].classList.toggle('hidden')
   })
 
   // ========= glightbox
   const myGallery = GLightbox({
-    href: 'https://drive.google.com/drive/u/3/folders/1GyTpMBLWSOv_ScX9771Clg3KosV5FMci',
+    href: 'https://youtu.be/QFPXroybyvs',
     type: 'video',
     source: 'local', //vimeo, youtube or local
     width: 900,
@@ -137,6 +137,25 @@
     append: 'k',
   })
   cu.start()
+
+  // ========= Back to top toggle based on device resolution
+  if (screen.width < 768) {
+    document
+      .getElementById('backtoTop')
+      .setAttribute(
+        'href',
+        'https://thrivephysiotherapycp.clinicmaster.com/book-online/booking-reasons?clinicId=3278&lang=en-CA'
+      )
+  }
+
+  // ========= Maps Size toggle based on device resolution
+  const mapsMobile = document.getElementsByClassName('maps_mobile')
+  const mapsDesktop = document.getElementsByClassName('maps_desktop')
+
+  if (screen.width < 768) {
+    mapsMobile[0].classList.remove('hidden')
+    mapsDesktop[0].classList.add('hidden')
+  }
 
   //=====  WOW active
   new WOW().init()
@@ -371,3 +390,48 @@
 
 const date = (document.getElementById('date').innerHTML =
   new Date().getFullYear())
+//  Change Background every 5 seconds
+
+// Array of image URLs
+const images = [
+  'assets/images/header/header-hero-1.webp',
+  'assets/images/header/header-hero-2.webp',
+  'assets/images/header/header-hero-3.webp',
+  'assets/images/header/header-hero-4.webp',
+  'assets/images/header/header-hero-5.webp',
+  'assets/images/header/header-hero-6.webp',
+  'assets/images/header/header-hero-7.webp',
+  'assets/images/header/header-hero-8.webp',
+]
+
+// Get the element
+const headerHero = document.getElementById('home')
+
+// Initialize the index
+let currentIndex = 0
+
+// Function to change the background image
+const changeBackgroundImage = () => {
+  // Fade out the current background image
+  headerHero.classList.remove('fade-in')
+  headerHero.classList.add('fade-out')
+
+  // Wait for the fade-out effect to complete
+  setTimeout(() => {
+    // Change the background image
+    headerHero.style.backgroundImage = `url(${images[currentIndex]})`
+
+    // Fade in the new background image
+    headerHero.classList.remove('fade-out')
+    headerHero.classList.add('fade-in')
+
+    // Update the index to the next image
+    currentIndex = (currentIndex + 1) % images.length
+  }, 1000) // Match the transition duration in CSS
+}
+
+// Change image every 5 seconds (5000 milliseconds)
+setInterval(changeBackgroundImage, 7000)
+
+// Initial call to set the first image
+changeBackgroundImage()

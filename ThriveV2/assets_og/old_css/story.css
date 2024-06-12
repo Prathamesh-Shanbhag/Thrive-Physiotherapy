@@ -521,8 +521,8 @@ a {
   position: relative;
   left: 7rem;
   opacity: 25%;
-  max-width: 250px !important;
-  height: 400px;
+  max-width: 10rem;
+  height: 10rem;
 }
 
 .hero-img-container {
@@ -590,8 +590,8 @@ a {
     position: relative;
     left: 30rem;
     opacity: 100%;
-    max-width: 400px !important;
-    height: 600px;
+    max-width: 10rem;
+    height: 10rem;
   }
   .hero-banner {
     left: 0%;
@@ -645,13 +645,12 @@ a {
 }
 @media screen and (min-width: 1032px) {
   .hero-img {
-    margin-top: 0rem;
     display: flex;
-    position: relative;
-    left: 60rem;
+    justify-content: flex-end;
+    /* left: 60rem; */
     opacity: 100%;
-    max-width: 400px !important;
-    height: 600px;
+    max-width: 10rem;
+    height: 10rem;
   }
   .hero-wrapper {
     left: 7.5rem;
