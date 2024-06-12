@@ -1552,10 +1552,10 @@ p {
   color: #fff;
   position: fixed;
   right: 1.25rem;
-  bottom: 4rem;
-  width: 7rem;
+  bottom: 4.5rem;
+  width: 2.5rem;
   height: 2.5rem;
-  border-radius: 5px;
+  border-radius: 4rem;
   background: -webkit-gradient(
     linear,
     left top,
