@@ -15,8 +15,8 @@ jobs:
         id: changelog
         uses: TriPSs/conventional-changelog-action@v3.7.1
         with:
+          node-version: '20'
           github-token: ${{ secrets.CHANGELOG_RELEASE }}
-
 
       - name: create release
         uses: actions/create-release@v1
@@ -24,6 +24,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
+          node-version: '20'
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}

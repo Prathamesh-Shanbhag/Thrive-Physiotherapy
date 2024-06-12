@@ -420,7 +420,6 @@ const changeBackgroundImage = () => {
   setTimeout(() => {
     // Change the background image
     headerHero.style.backgroundImage = `url(${images[currentIndex]})`
-    headerHero.style.transition = 'opacity 2s ease-in-out'
 
     // Fade in the new background image
     headerHero.classList.remove('fade-out')
