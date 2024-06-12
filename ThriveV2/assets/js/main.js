@@ -401,7 +401,6 @@ const images = [
   'assets/images/header/header-hero-5.webp',
   'assets/images/header/header-hero-6.webp',
   'assets/images/header/header-hero-7.webp',
-  'assets/images/header/header-hero-8.webp',
 ]
 
 // Get the element

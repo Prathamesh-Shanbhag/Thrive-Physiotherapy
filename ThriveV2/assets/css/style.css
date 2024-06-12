@@ -2349,3 +2349,64 @@ p {
 .hidden {
   display: none;
 }
+
+/* MARQUEE CSS */
+
+.custom-marquee {
+  width: 100%;
+  height: 2rem;
+  overflow: hidden;
+  position: relative;
+}
+
+.custom-marquee div {
+  background-color: var(--primaryCol);
+  padding-top: 0.4rem;
+  padding-bottom: 0rem;
+  display: block;
+  width: 200%;
+  height: 2rem;
+  position: absolute;
+  overflow: hidden;
+  animation: marquee 15s linear infinite;
+}
+
+.custom-marquee span {
+  float: left;
+  padding-top: 0.2rem;
+  margin-left: 1rem;
+  font-size: 0.7rem;
+  font-weight: bolder;
+  text-transform: uppercase;
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+  text-align: center;
+}
+
+@keyframes marquee {
+  0% {
+    left: 0;
+  }
+  50% {
+    left: -50%;
+  }
+  100% {
+    left: 0;
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  .custom-marquee {
+    height: 1.3rem;
+  }
+  .custom-marquee div {
+    background-color: var(--primaryCol);
+    display: block;
+    width: 200%;
+    height: 1.3rem;
+    padding-top: 0rem;
+  }
+  .custom-marquee span {
+    font-size: 0.6rem;
+  }
+}
