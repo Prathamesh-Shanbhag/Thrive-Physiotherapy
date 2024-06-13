@@ -123,9 +123,9 @@
   const myGallery = GLightbox({
     href: 'https://youtu.be/QFPXroybyvs',
     type: 'video',
-    source: 'local', //vimeo, youtube or local
-    width: 900,
     autoplayVideos: true,
+    source: 'youtube', //vimeo, youtube or local
+    width: 900,
   })
 
   //====== counter up
@@ -149,13 +149,16 @@
   }
 
   // ========= Maps Size toggle based on device resolution
-  const mapsMobile = document.getElementsByClassName('maps_mobile')
-  const mapsDesktop = document.getElementsByClassName('maps_desktop')
+  // const mapsMobile = document.getElementsByClassName('maps_mobile')
+  // const mapsDesktop = document.getElementsByClassName('maps_desktop')
+  // // const marqueeMobile = document.getElementsByClassName('custom-marquee')
 
-  if (screen.width < 768) {
-    mapsMobile[0].classList.remove('hidden')
-    mapsDesktop[0].classList.add('hidden')
-  }
+  // console.log(marqueeMobile[0].classList)
+  // if (screen.width < 768) {
+  //   // marqueeMobile[0].classList.remove('hidden')
+  //   mapsMobile[0].classList.remove('hidden')
+  //   mapsDesktop[0].classList.add('hidden')
+  // }
 
   //=====  WOW active
   new WOW().init()

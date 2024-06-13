@@ -2345,14 +2345,13 @@ p {
   /* -webkit-transform: translateX(-50%);
   transform: translateX(-100%); */
 }
-
 .hidden {
   display: none;
 }
-
 /* MARQUEE CSS */
 
 .custom-marquee {
+  display: none;
   width: 100%;
   height: 2rem;
   overflow: hidden;
@@ -2363,7 +2362,7 @@ p {
   background-color: var(--primaryCol);
   padding-top: 0.4rem;
   padding-bottom: 0rem;
-  display: block;
+  display: hidden;
   width: 200%;
   height: 2rem;
   position: absolute;
@@ -2388,16 +2387,31 @@ p {
     left: 0;
   }
   50% {
-    left: -50%;
+    left: -60%;
   }
   100% {
     left: 0;
   }
 }
-
+.maps_desktop {
+  margin-top: 7.5rem;
+  display: block;
+}
+.maps_mobile {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .maps_desktop {
+    display: none;
+  }
+  .maps_mobile {
+    display: block;
+  }
+}
 @media only screen and (max-width: 600px) {
   .custom-marquee {
     height: 1.3rem;
+    display: block;
   }
   .custom-marquee div {
     background-color: var(--primaryCol);

@@ -2313,19 +2313,38 @@ p {
   transform: translateX(-100%); */
 }
 
-.hidden {
-  display: none;
-}
 svg.squiggle {
   position: absolute;
   top: 0;
   left: 0;
   width: 120vw;
-  height: 200vw;
+  /* Increase height when more team members are added and vice versa decrease when members reduced */
+  height: 180vw;
   z-index: -1;
 }
 
 svg.squiggle path {
   stroke-width: 0.8rem;
   overflow: hidden;
+}
+
+/* MAPS */
+.maps_desktop {
+  margin-top: 7.5rem;
+  display: block;
+}
+.maps_mobile {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .maps_desktop {
+    display: none;
+  }
+  .maps_mobile {
+    display: block;
+  }
+}
+
+.hidden {
+  display: none;
 }

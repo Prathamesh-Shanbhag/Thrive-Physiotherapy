@@ -2312,16 +2312,33 @@ p {
   /* -webkit-transform: translateX(-50%);
   transform: translateX(-100%); */
 }
+/* MAPS */
+.maps_desktop {
+  margin-top: 7.5rem;
+  display: block;
+}
+.maps_mobile {
+  display: none;
+}
+@media only screen and (max-width: 991px) {
+  .maps_desktop {
+    display: none;
+  }
+  .maps_mobile {
+    display: block;
+  }
+}
 
 .hidden {
   display: none;
 }
+
 svg.squiggle {
   position: absolute;
   top: 0;
   left: 0;
   width: 120vw;
-  height: 140vw;
+  height: 154vw;
   z-index: -1;
 }
 
