@@ -623,7 +623,8 @@ p {
 
 .navbar-nav .nav-item a:hover,
 .navbar-nav .nav-item a.active {
-  color: whitesmoke;
+  color: var(--primaryCol);
+  font-weight: bolder;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px),
