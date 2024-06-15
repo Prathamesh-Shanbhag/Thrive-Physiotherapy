@@ -129,14 +129,14 @@
   })
 
   //====== counter up
-  const cu = new counterUp({
-    start: 0,
-    duration: 2000,
-    intvalues: true,
-    interval: 100,
-    append: 'k',
-  })
-  cu.start()
+  // const cu = new counterUp({
+  //   start: 0,
+  //   duration: 2000,
+  //   intvalues: true,
+  //   interval: 100,
+  //   append: 'k',
+  // })
+  // cu.start()
 
   // ========= Back to top toggle based on device resolution
   if (screen.width < 768) {

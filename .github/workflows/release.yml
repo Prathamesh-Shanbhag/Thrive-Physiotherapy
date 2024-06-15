@@ -10,13 +10,12 @@ jobs:
 
     steps:
       - uses: actions/checkout@v2
-
       - name: conventional Changelog Action
         id: changelog
-        uses: TriPSs/conventional-changelog-action@v3.7.1
+        uses: TriPSs/conventional-changelog-action@v5
         with:
-          node-version: '20'
           github-token: ${{ secrets.CHANGELOG_RELEASE }}
+          output-file: 'false'
 
       - name: create release
         uses: actions/create-release@v1
@@ -24,9 +23,8 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.CHANGELOG_RELEASE }}
         with:
-          node-version: '20'
           tag_name: ${{ steps.changelog.outputs.tag }}
           release_name: ${{ steps.changelog.outputs.tag }}
           body: ${{ steps.changelog.outputs.clean_changelog }}
           output-file: 'Thrive_CHANGELOG.md'
-          skip-version-file: 'true'
+          skip-version-file: 'false'
