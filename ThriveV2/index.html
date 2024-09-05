@@ -25,8 +25,21 @@
 
     gtag('config', 'G-Y2JJ74EL6S');
   </script>
-  <!-- End of Google Tag -->
 
+  <!-- End of Google Tag -->
+  <!-- Vercel Analytics Tag -->
+  <script>
+    // Check if the environment variable indicates production
+    if (process.env.NODE_ENV === 'production') {
+      window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
+
+      var script = document.createElement('script');
+      script.src = '/_vercel/insights/script.js';
+      script.async = true;
+
+      document.head.appendChild(script);
+    }
+  </script>
 
   <!--====== Title ======-->
   <title>Thrive Physiotherapy & Wellness | Home</title>
@@ -958,6 +971,7 @@
 
   <!--====== BACK TOP TOP PART ENDS ======-->
 
+
   <!--====== Javascript Files ======-->
   <script defer src="assets/js/bootstrap.bundle.min.js" fetchpriority="high"></script>
   <script src="assets/js/wow.min.js" fetchpriority="high"></script>
@@ -965,8 +979,5 @@
   <!-- <script defer src="assets/js/count-up.min.js"></script> -->
   <script src="assets/js/particles.min.js" fetchpriority="low"></script>
   <script src="assets/js/main.js" fetchpriority="high"></script>
-  <script>
-    window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-  </script>
-  <script defer src="/_vercel/insights/script.js"></script>
+
 </body>
