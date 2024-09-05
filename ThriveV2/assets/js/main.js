@@ -429,7 +429,7 @@ const changeBackgroundImage = () => {
 
     // Update the index to the next image
     currentIndex = (currentIndex + 1) % images.length
-  }, 1000) // Match the transition duration in CSS
+  }, 2000) // Match the transition duration in CSS
 }
 
 // Change image every 5 seconds (5000 milliseconds)

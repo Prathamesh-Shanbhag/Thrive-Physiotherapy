@@ -29,17 +29,12 @@
   <!-- End of Google Tag -->
   <!-- Vercel Analytics Tag -->
   <script>
-    // Check if the environment variable indicates production
-    if (process.env.NODE_ENV === 'production') {
+    if (window.location.hostname === 'https://www.thrivephysiowellness.com/') {
       window.va = window.va || function () { (window.vaq = window.vaq || []).push(arguments); };
-
-      var script = document.createElement('script');
-      script.src = '/_vercel/insights/script.js';
-      script.async = true;
-
-      document.head.appendChild(script);
     }
   </script>
+  <script async src="/_vercel/insights/script.js"></script>
+
 
   <!--====== Title ======-->
   <title>Thrive Physiotherapy & Wellness | Home</title>
