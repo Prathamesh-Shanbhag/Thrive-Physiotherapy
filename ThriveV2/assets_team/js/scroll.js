@@ -5,7 +5,7 @@ const headerArea = document.getElementById('header')
 
 const scroll = () => {
   // Height of the header
-  const headerHeight = headerArea.offsetHeight - 300
+  const headerHeight = headerArea.offsetHeight - 700
 
   // Height of the viewport
   const windowHeight = window.innerHeight
