@@ -2463,9 +2463,6 @@ p {
   width: fit-content;
 }
 
-.testimonial-track:hover {
-  animation-play-state: paused;
-}
 
 @keyframes scroll {
   0% {
