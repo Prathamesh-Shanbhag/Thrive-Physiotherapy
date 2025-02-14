@@ -740,6 +740,10 @@ p {
   font-size: 38px;
   font-weight: 700;
   color: #fff;
+  text-shadow: 2px 2px 3px rgba(74, 74, 74, 0.9),
+  4px 4px 5px rgba(58, 58, 58, 0.8),
+  6px 6px 8px rgba(42, 42, 42, 0.7),
+  8px 8px 12px rgba(0, 0, 0, 0.5);
 }
 
 @media (max-width: 767px) {
@@ -2559,4 +2563,58 @@ p {
     display: flex;
     flex-direction: column;
     gap: 0.25rem;
+}
+
+/* Top Ticker Styles */
+.top-ticker {
+    background-color: var(--primaryCol);
+    color: white;
+    padding: 12px 0;
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+
+.ticker-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 16px;
+    animation: ticker 20s linear infinite;
+    white-space: nowrap;
+}
+
+.ticker-content span {
+    display: inline-block;
+    font-size: 15px;
+    font-weight: 600;
+}
+
+/* Dot separator styling */
+.ticker-content span:nth-child(even) {
+    color: var(--secondaryCol);
+    margin: 0 4px;
+}
+
+@keyframes ticker {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}
+
+/* Hide custom-marquee on desktop when top-ticker is visible */
+@media (min-width: 768px) {
+    .custom-marquee {
+        display: none;
+    }
+}
+
+/* Hide top-ticker on mobile */
+@media (max-width: 767px) {
+    .top-ticker {
+        display: none;
+    }
 }
