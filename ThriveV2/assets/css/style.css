@@ -177,6 +177,10 @@ p {
   color: #fff;
   background-position: right center;
 }
+#rotating-text {
+  transition: opacity 0.5s ease-in-out;
+}
+
 
 @media (max-width: 767px) {
   .container {

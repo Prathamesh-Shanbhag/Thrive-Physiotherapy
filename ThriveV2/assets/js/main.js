@@ -1,10 +1,17 @@
 ;(function () {
   ;('use strict')
-
+const preloadImages = () => {
+  images.forEach((url) => {
+      const img = new Image();
+      img.src = url;
+  });
+}
   // ==== Preloader
   window.onload = function () {
+    preloadImages();
     window.setTimeout(fadeout, 500)
   }
+// Add this at the start of your script
 
   function fadeout() {
     document.querySelector('.preloader').style.opacity = '0'
@@ -159,6 +166,28 @@
   //   mapsMobile[0].classList.remove('hidden')
   //   mapsDesktop[0].classList.add('hidden')
   // }
+// Rotating Hero Text
+const texts = [
+  "With expert physiotherapy care move better, feel stronger!",
+  "Holistic mental wellness solutions.",
+  "A clinic dedicated to women's pelvic health for all stages of life."
+];
+
+let currentIndexText = 0;
+const textElement = document.getElementById('rotating-text');
+
+function changeText() {
+  textElement.style.opacity = '0';
+  
+  setTimeout(() => {
+      textElement.textContent = texts[currentIndexText];
+      textElement.style.opacity = '1';
+      currentIndexText = (currentIndexText + 1) % texts.length;
+  }, 500);
+}
+
+// Change text every 4 seconds
+setInterval(changeText, 8000);
 
   //=====  WOW active
   new WOW().init()
@@ -411,25 +440,38 @@ const headerHero = document.getElementById('home')
 
 // Initialize the index
 let currentIndex = 0
-
+let isTransitioning = false;
 // Function to change the background image
 const changeBackgroundImage = () => {
-  // Fade out the current background image
-  headerHero.classList.remove('fade-in')
-  headerHero.classList.add('fade-out')
+  // Prevent multiple transitions from running simultaneously
+  if (isTransitioning) return;
+  
+  isTransitioning = true;
 
-  // Wait for the fade-out effect to complete
+  // Start fade out
+  headerHero.classList.add('fade-out');
+  headerHero.classList.remove('fade-in');
+
+  // Wait for fade out to complete
   setTimeout(() => {
-    // Change the background image
-    headerHero.style.backgroundImage = `url(${images[currentIndex]})`
+      // Change the background image
+      headerHero.style.backgroundImage = `url(${images[currentIndex]})`;
+      
+      // Force browser reflow
+      void headerHero.offsetWidth;
+      
+      // Start fade in
+      headerHero.classList.remove('fade-out');
+      headerHero.classList.add('fade-in');
 
-    // Fade in the new background image
-    headerHero.classList.remove('fade-out')
-    headerHero.classList.add('fade-in')
+      // Update the index for next image
+      currentIndex = (currentIndex + 1) % images.length;
 
-    // Update the index to the next image
-    currentIndex = (currentIndex + 1) % images.length
-  }, 2000) // Match the transition duration in CSS
+      // Allow next transition after fade in completes
+      setTimeout(() => {
+          isTransitioning = false;
+      }, 500);
+  }, 500);
 }
 
 // Change image every 5 seconds (5000 milliseconds)

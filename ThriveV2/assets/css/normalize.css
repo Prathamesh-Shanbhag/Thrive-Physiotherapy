@@ -3,13 +3,15 @@
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
-  transition: opacity 0.1s ease-in-out;
+  transition: opacity 1s ease-in-out;
+  opacity: 1;
+  background-color: #000; 
 }
 
-.header-hero .fade-out {
+.header-hero.fade-out {
   opacity: 0;
 }
 
-.header-hero img .fade-in {
+.header-hero.fade-in {
   opacity: 1;
 }
