@@ -8,6 +8,9 @@ body {
   font-style: normal;
   color: #6a6972;
   overflow-x: hidden;
+  min-height: 100vh;
+    min-height: -webkit-fill-available;
+    overscroll-behavior-y: none; /* Prevents pull-to-refresh */
 }
 
 * {
@@ -16,7 +19,9 @@ body {
   -webkit-box-sizing: border-box;
   box-sizing: border-box;
 }
-
+html{
+  height: -webkit-fill-available;
+}
 /* css variables  */
 :root {
   --primaryCol: #99a983;
@@ -1559,7 +1564,8 @@ p {
 .call_now {
   font-size: 1rem;
   color: #fff;
-  position: fixed;
+  position: fixed !important;
+   /* Force fixed positioning */
   right: 1.25rem;
   bottom: 4.5rem;
   width: 2.5rem;
@@ -1576,9 +1582,13 @@ p {
   background: linear-gradient(var(--primaryCol) 0%, #9daf86 100%);
   background-size: 200%;
   text-align: center;
-  z-index: 99;
+  z-index: 9999;
+  -webkit-transform: translateZ(0);
+    transform: translateZ(0);
   -webkit-transition: all 0.3s ease-out 0s;
   transition: all 0.3s ease-out 0s;
+  will-change: transform;
+  /* Optimize for animations */
   display: none;
   -webkit-box-align: center;
   -ms-flex-align: center;
@@ -1591,7 +1601,15 @@ p {
   color: #fff;
   background-position: right center;
 }
-
+@supports (-webkit-appearance:none) {
+  .call_now {
+      bottom: calc(env(safe-area-inset-bottom) + 60px) !important; /* Higher position for call button */
+  }
+  
+  .back-to-top {
+      bottom: env(safe-area-inset-bottom) !important; /* Keep Book Now button at the bottom */
+  }
+}
 /* // ADDED CSS  */
 .contact-link {
   color: var(--secondaryCol);

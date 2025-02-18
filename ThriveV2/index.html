@@ -831,11 +831,15 @@
           </div>
           <div class="col-lg-6">
             <div class="subscribe-form mt-50">
-              <form action="https://submit-form.com/Ve0CKtdHe">
-                <input type="email" id="newsletter" name="newsletter" placeholder="Enter email" required="" />
-                <input class="mt-10" type="text" id="newsletter" name="enquiry" placeholder="Enter your query"
-                  required="">
-                <button class="main-btn" type="submit">Enquire</button>
+              <form action="https://api.web3forms.com/submit" method="POST">
+                <!-- Replace with your Access Key -->
+                <input type="hidden" name="access_key" value="f0b6f716-73a2-45b6-8c5e-3ef3b2ffcecc">
+                <input type="email" id="useremail" name="useremail" placeholder="Enter email" required/>
+                <input class="mt-10" type="text" id="query" name="enquiry" placeholder="Enter your query"
+                  required>
+                  <!-- Custom Confirmation / Success Page -->
+                <input type="hidden" name="redirect" value="https://www.thrivephysiowellness.com/"> 
+                <button class="main-btn" type="submit">Inquire</button>
               </form>
             </div>
           </div>
