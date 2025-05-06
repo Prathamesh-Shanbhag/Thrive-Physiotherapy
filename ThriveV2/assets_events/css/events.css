@@ -352,6 +352,37 @@
     .hero-image {
       margin-top: 40px;
     }
+
+    /* Fix heading overlap with navbar on mobile */
+    .hero-enhanced {
+      padding-top: 10rem;
+    }
+
+    /* Ensure the hero content doesn't overlap with navbar */
+    .hero-content {
+      padding-top: 30px;
+    }
+  }
+
+  @media (max-width: 767px) {
+    .event-card {
+      margin-bottom: 4rem;
+    }
+    
+    /* Additional padding for the second event card */
+    .event-card + .event-card {
+      margin-top: 4rem;
+    }
+
+    /* Force more spacing between columns on mobile */
+    .col-md-12.mb-5 {
+      margin-bottom: 5rem !important;
+    }
+
+    /* Add space after the row to ensure proper separation */
+    .row + .section-divider {
+      margin-top: 3rem;
+    }
   }
 
   /* Custom navbar styles for events page */
